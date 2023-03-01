@@ -1,0 +1,50 @@
+prefix nest: <https://info.nestcollaboration.ch/wikipedia/>
+prefix nest_location: <https://info.nestcollaboration.ch/wikipedia/location/>
+prefix nest_equipment: <https://info.nestcollaboration.ch/wikipedia/equipment/>
+prefix nest_point: <https://info.nestcollaboration.ch/wikipedia/point/>
+prefix nest_collection: <https://info.nestcollaboration.ch/wikipedia/collection/>
+prefix brick: <https://brickschema.org/schema/Brick#>
+prefix ite: <http://w3id.org/sparql-generate/iter/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+GENERATE {
+
+?aksCode_URI a ?BrickClass_Type;
+    brick:hasLocation ?Room_URI;
+    brick:isPointOf ?nest_Equipment_URI;
+    brick:hasOpcAddress ?opcUaPublic;
+    brick:timeseries [
+    	        brick:hasTimeseriesId ?Point;
+    	        brick:storedAt <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>;
+    	        ];
+    	        .
+
+}
+
+ITERATOR ite:CSV(<Sensors.csv>, true, '"', ',','\n',
+
+"aksCode_URI",
+"Point_URI",
+"brick_PointType",
+"nest_Equipment_URI",
+"Room_URI",
+"opcUaPublic"
+
+)
+
+	AS
+
+?aksCode
+?Point
+?brick_PointType
+?nest_Equipment
+?Room
+?opcUaPublic
+
+WHERE {
+    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/point/",?aksCode)) AS ?aksCode_URI)
+    BIND(IRI(CONCAT("https://brickschema.org/schema/Brick#",ENCODE_FOR_URI(?brick_PointType))) AS ?BrickClass_Type)
+    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/location/",ENCODE_FOR_URI(?Room))) AS ?Room_URI)
+    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/equipment/",ENCODE_FOR_URI(?nest_Equipment))) AS ?nest_Equipment_URI)
+}
+

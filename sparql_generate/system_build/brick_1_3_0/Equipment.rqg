@@ -1,0 +1,60 @@
+prefix nest: <https://info.nestcollaboration.ch/wikipedia/>
+prefix nest_location: <https://info.nestcollaboration.ch/wikipedia/location/>
+prefix nest_equipment: <https://info.nestcollaboration.ch/wikipedia/equipment/>
+prefix nest_point: <https://info.nestcollaboration.ch/wikipedia/point/>
+prefix nest_collection: <https://info.nestcollaboration.ch/wikipedia/collection/>
+prefix brick: <https://brickschema.org/schema/Brick#>
+prefix ite: <http://w3id.org/sparql-generate/iter/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+GENERATE {
+
+?NEST_Equipment_URI a ?BrickClass_Type;
+    brick:hasLocation ?Location_URI;
+    brick:feeds ?feeds_Equipment_URI;
+    brick:isSubmeterOf ?isSubmeterOf_Equipment_URI;
+    brick:isPartOf ?isPartOf_Equipment_URI;
+    brick:isPartOf ?Water_Loop_URI;
+    brick:isPartOf ?Electrical_System_URI.
+
+?Water_Loop_URI a brick:Water_Loop.
+
+?Electrical_System_URI a brick:Electrical_System.
+
+}
+
+ITERATOR ite:CSV(<umar_logical_model_brick1_3.csv>, true, '"', ',','\n',
+
+"NEST Equipment",
+"Brick Class",
+"Location",
+"Feeds",
+"isSubmeterOf",
+"isPartOf_equipment",
+"isPartOf_Water_Loop",
+"isPartOf_Electrical_System"
+
+)
+
+	AS
+
+?NEST_Equipment
+?Brick_Class
+?Location
+?Feeds
+?isSubmeterOf
+?isPartOf_equipment
+?isPartOf_Water_Loop
+?isPartOf_Electrical_System
+
+WHERE {
+    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/equipment/",?NEST_Equipment)) AS ?NEST_Equipment_URI)
+    BIND(IRI(CONCAT("https://brickschema.org/schema/Brick#",ENCODE_FOR_URI(?Brick_Class))) AS ?BrickClass_Type)
+    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/location/",ENCODE_FOR_URI(?Location))) AS ?Location_URI)
+    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/equipment/",ENCODE_FOR_URI(?Feeds))) AS ?feeds_Equipment_URI)
+    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/equipment/",ENCODE_FOR_URI(?isSubmeterOf))) AS ?isSubmeterOf_Equipment_URI)
+    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/equipment/",ENCODE_FOR_URI(?isPartOf_equipment))) AS ?isPartOf_Equipment_URI)
+    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/loops/",ENCODE_FOR_URI(?isPartOf_Water_Loop))) AS ?Water_Loop_URI)
+    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/systems/",ENCODE_FOR_URI(?isPartOf_Electrical_System))) AS ?Electrical_System_URI)
+}
+

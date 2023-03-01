@@ -1,0 +1,31 @@
+prefix nest: <https://info.nestcollaboration.ch/wikipedia/>
+prefix brick: <https://brickschema.org/schema/Brick#>
+prefix ite: <http://w3id.org/sparql-generate/iter/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+GENERATE {
+
+	?subject_URI ?predicate_URI ?object_URI.
+}
+
+ITERATOR ite:CSV(<AdditionalMetadata.csv>, true, '"', ',','\n',
+
+"subject_equipment",
+"predicate",
+"object"
+
+)
+
+	AS
+
+    ?subject
+    ?predicate
+    ?object
+
+WHERE {
+    BIND(IRI(?subject) AS ?subject_URI)
+    BIND(IRI(?predicate) AS ?predicate_URI)
+    BIND(IRI(?object) AS ?object_URI)
+
+}
+

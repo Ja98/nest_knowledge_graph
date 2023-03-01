@@ -1,0 +1,5 @@
+java -jar sparql-generate-2.0.9.jar -d ./ -o Sensors.ttl -q system_build/brick_1_3_0/Sensors.rqg -b "https://info.nestcollaboration.ch/wikipedia/"
+
+java -jar sparql-generate-2.0.9.jar -d ./ -o Equipment.ttl -q system_build/brick_1_3_0/Equipment.rqg -b "https://info.nestcollaboration.ch/wikipedia/"
+
+java -jar sparql-generate-2.0.9.jar -d ./ -o Geometry.ttl -q system_build/brick_1_3_0/Geometry.rqg -b "https://info.nestcollaboration.ch/wikipedia/"
