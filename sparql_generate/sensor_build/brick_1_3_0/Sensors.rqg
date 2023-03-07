@@ -21,7 +21,7 @@ GENERATE {
 
 }
 
-ITERATOR ite:CSV(<Sensors.csv>, true, '"', ',','\n',
+ITERATOR ite:CSV(<./Sensors.csv>, true, '"', ',','\n',
 
 "aksCode_URI",
 "Point_URI",

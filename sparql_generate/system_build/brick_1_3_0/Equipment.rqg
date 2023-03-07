@@ -23,7 +23,7 @@ GENERATE {
 
 }
 
-ITERATOR ite:CSV(<umar_logical_model_brick1_3.csv>, true, '"', ',','\n',
+ITERATOR ite:CSV(<Equipment.csv>, true, '"', ',','\n',
 
 "NEST Equipment",
 "Brick Class",

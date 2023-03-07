@@ -8,7 +8,7 @@ GENERATE {
 	?subject_URI ?predicate_URI ?object_URI.
 }
 
-ITERATOR ite:CSV(<AdditionalMetadata.csv>, true, '"', ',','\n',
+ITERATOR ite:CSV(<Geometry.csv>, true, '"', ',','\n',
 
 "subject_equipment",
 "predicate",
