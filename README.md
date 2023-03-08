@@ -15,7 +15,7 @@ In our approach, we suggest breaking the process of creating a knowledge graph o
 ![image](https://user-images.githubusercontent.com/36200412/223693214-6b730ec7-550c-4f73-988f-7b0a316312dd.png)
 
 
-Instructions 
+**Instructions** 
 Click the '.bat' files' on Windows OS to generate the .ttl files for  
 
 References
