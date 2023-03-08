@@ -19,4 +19,4 @@ In our approach, we suggest breaking the process of creating a knowledge graph o
 Click the '.bat' files' on Windows OS to generate the .ttl files for  
 
 References
-1.	https://ci.mines-stetienne.fr/sparql-generate/index.html
+1.	SPARQL Generate: https://ci.mines-stetienne.fr/sparql-generate/index.html
