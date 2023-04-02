@@ -1,0 +1,69 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix ite:   <http://w3id.org/sparql-generate/iter/> .
+@prefix nest:  <https://info.nestcollaboration.ch/wikipedia/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://info.nestcollaboration.ch/wikipedia/location/Room_274>
+        rdf:type            brick:Room ;
+        brick:hasLocation   <https://info.nestcollaboration.ch/wikipedia/location/Umar> , <https://info.nestcollaboration.ch/wikipedia/location/U20Z4> ;
+        brick:isAdjacentOf  <https://info.nestcollaboration.ch/wikipedia/location/Room_275> , <https://info.nestcollaboration.ch/wikipedia/location/Room_273> .
+
+<https://info.nestcollaboration.ch/wikipedia/location/U20Z1>
+        rdf:type  brick:HVAC_Zone .
+
+<https://info.nestcollaboration.ch/wikipedia/location/U20Z6>
+        rdf:type  brick:HVAC_Zone .
+
+<https://info.nestcollaboration.ch/wikipedia/location/Room_272>
+        rdf:type            brick:Room ;
+        brick:hasLocation   <https://info.nestcollaboration.ch/wikipedia/location/Umar> , <https://info.nestcollaboration.ch/wikipedia/location/U20Z2> ;
+        brick:isAdjacentOf  <https://info.nestcollaboration.ch/wikipedia/location/Room_273> .
+
+<https://info.nestcollaboration.ch/wikipedia/location/U20Z4>
+        rdf:type  brick:HVAC_Zone .
+
+<https://info.nestcollaboration.ch/wikipedia/location/NEST>
+        rdf:type  brick:Building .
+
+<https://info.nestcollaboration.ch/wikipedia/location/2nd_Floor>
+        rdf:type           brick:Floor ;
+        brick:hasLocation  <https://info.nestcollaboration.ch/wikipedia/location/NEST> .
+
+<https://info.nestcollaboration.ch/wikipedia/location/Room_270>
+        rdf:type            brick:Room ;
+        brick:hasLocation   <https://info.nestcollaboration.ch/wikipedia/location/Umar> ;
+        brick:isAdjacentOf  <https://info.nestcollaboration.ch/wikipedia/location/Room_276> , <https://info.nestcollaboration.ch/wikipedia/location/Room_273> , <https://info.nestcollaboration.ch/wikipedia/location/Room_271> .
+
+<https://info.nestcollaboration.ch/wikipedia/location/Room_275>
+        rdf:type            brick:Room ;
+        brick:hasLocation   <https://info.nestcollaboration.ch/wikipedia/location/Umar> , <https://info.nestcollaboration.ch/wikipedia/location/U20Z5> ;
+        brick:isAdjacentOf  <https://info.nestcollaboration.ch/wikipedia/location/Room_276> , <https://info.nestcollaboration.ch/wikipedia/location/Room_274> .
+
+<https://info.nestcollaboration.ch/wikipedia/location/U20Z2>
+        rdf:type  brick:HVAC_Zone .
+
+<https://info.nestcollaboration.ch/wikipedia/location/Umar>
+        rdf:type           brick:Space ;
+        brick:hasLocation  <https://info.nestcollaboration.ch/wikipedia/location/NEST> .
+
+<https://info.nestcollaboration.ch/wikipedia/location/Room_273>
+        rdf:type            brick:Room ;
+        brick:hasLocation   <https://info.nestcollaboration.ch/wikipedia/location/Umar> , <https://info.nestcollaboration.ch/wikipedia/location/U20Z3> ;
+        brick:isAdjacentOf  <https://info.nestcollaboration.ch/wikipedia/location/Room_276> , <https://info.nestcollaboration.ch/wikipedia/location/Room_274> , <https://info.nestcollaboration.ch/wikipedia/location/Room_272> , <https://info.nestcollaboration.ch/wikipedia/location/Room_271> , <https://info.nestcollaboration.ch/wikipedia/location/Room_270> .
+
+<https://info.nestcollaboration.ch/wikipedia/location/U20Z5>
+        rdf:type  brick:HVAC_Zone .
+
+<https://info.nestcollaboration.ch/wikipedia/location/Room_271>
+        rdf:type            brick:Room ;
+        brick:hasLocation   <https://info.nestcollaboration.ch/wikipedia/location/U20Z1> ;
+        brick:isAdjacentOf  <https://info.nestcollaboration.ch/wikipedia/location/Room_273> , <https://info.nestcollaboration.ch/wikipedia/location/Room_270> ;
+        brick:isLocationOf  <https://info.nestcollaboration.ch/wikipedia/location/Umar> .
+
+<https://info.nestcollaboration.ch/wikipedia/location/Room_276>
+        rdf:type            brick:Room ;
+        brick:hasLocation   <https://info.nestcollaboration.ch/wikipedia/location/Umar> , <https://info.nestcollaboration.ch/wikipedia/location/U20Z6> ;
+        brick:isAdjacentOf  <https://info.nestcollaboration.ch/wikipedia/location/Room_275> , <https://info.nestcollaboration.ch/wikipedia/location/Room_273> , <https://info.nestcollaboration.ch/wikipedia/location/Room_270> .
+
+<https://info.nestcollaboration.ch/wikipedia/location/U20Z3>
+        rdf:type  brick:HVAC_Zone .

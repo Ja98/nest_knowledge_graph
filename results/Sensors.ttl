@@ -1,0 +1,242 @@
+@prefix brick:           <https://brickschema.org/schema/Brick#> .
+@prefix ite:             <http://w3id.org/sparql-generate/iter/> .
+@prefix nest:            <https://info.nestcollaboration.ch/wikipedia/> .
+@prefix nest_collection: <https://info.nestcollaboration.ch/wikipedia/collection/> .
+@prefix nest_equipment:  <https://info.nestcollaboration.ch/wikipedia/equipment/> .
+@prefix nest_location:   <https://info.nestcollaboration.ch/wikipedia/location/> .
+@prefix nest_point:      <https://info.nestcollaboration.ch/wikipedia/point/> .
+@prefix rdf:             <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+nest_point:65NT_U20R1_S103_D00
+        rdf:type             brick:Open_Close_Status ;
+        brick:hasLocation    nest_location:Room_274 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR1.strS103.bValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20R1_S103 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150287" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R1_S100_D00
+        rdf:type             brick:Open_Close_Status ;
+        brick:hasLocation    nest_location:Room_272 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR1.strS100.bValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20R1_S100 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150284" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R4_B870_M03
+        rdf:type             brick:Illuminance_Sensor ;
+        brick:hasLocation    nest_location:Room_274 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR4.strB870.rValue4" ;
+        brick:isPointOf      nest_equipment:65NT_U20R4_B870 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150315" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R6_B870_M00
+        rdf:type             brick:Temperature_Sensor ;
+        brick:hasLocation    nest_location:Room_276 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR6.strB870.rValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20R6_B870 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150336" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_MTM31_P890_M00
+        rdf:type             brick:Power_Sensor ;
+        brick:hasLocation    nest_location:Room_271 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-06421-D001.PLC1.Units.str2T0.strRead.strAktoren.strMTM31.strY760.rLeistung" ;
+        brick:isPointOf      nest_equipment:65NT_MTM31_P890 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150477" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R3_B870_M00
+        rdf:type             brick:Temperature_Sensor ;
+        brick:hasLocation    nest_location:Room_273 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR3.strB870.rValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20R3_B870 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150300" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R1_Y101_M00
+        rdf:type             brick:Position_Command ;
+        brick:hasLocation    nest_location:Room_273 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strAktoren.strR1.strY101.bValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20R1_Y101 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150271" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R1_S101_D00
+        rdf:type             brick:Open_Close_Status ;
+        brick:hasLocation    nest_location:Room_273 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR1.strS101.bValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20R1_S101 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150285" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R2_B870_M01
+        rdf:type             brick:Humidity_Sensor ;
+        brick:hasLocation    nest_location:Room_272 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR2.strB870.rValue2" ;
+        brick:isPointOf      nest_equipment:65NT_U20R2_B870 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150289" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R1_Y105_M00
+        rdf:type             brick:Position_Command ;
+        brick:hasLocation    nest_location:Room_273 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strAktoren.strR1.strY105.bValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20R1_Y105 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150275" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R1_Y106_M00
+        rdf:type             brick:Position_Command ;
+        brick:hasLocation    nest_location:Room_274 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strAktoren.strR1.strY106.bValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20R1_Y106 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150276" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R1_Y100_M00
+        rdf:type             brick:Position_Command ;
+        brick:hasLocation    nest_location:Room_272 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strAktoren.strR1.strY100.bValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20R1_Y100 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150270" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R5_B870_M00
+        rdf:type             brick:Temperature_Sensor ;
+        brick:hasLocation    nest_location:Room_275 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR5.strB870.rValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20R5_B870 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150324" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20M2_B800_M00
+        rdf:type             brick:Entering_Water_Temperature_Sensor ;
+        brick:hasLocation    nest_location:Room_271 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strM2.strB800.rValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20M2_B800 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150221" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R2_B870_M00
+        rdf:type             brick:Temperature_Sensor ;
+        brick:hasLocation    nest_location:Room_272 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR2.strB870.rValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20R2_B870 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150288" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R1_Y104_M00
+        rdf:type             brick:Position_Command ;
+        brick:hasLocation    nest_location:Room_273 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strAktoren.strR1.strY104.bValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20R1_Y104 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150274" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R4_B870_M01
+        rdf:type             brick:Humidity_Sensor ;
+        brick:hasLocation    nest_location:Room_274 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR4.strB870.rValue2" ;
+        brick:isPointOf      nest_equipment:65NT_U20R4_B870 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150313" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20H1_B820_M00
+        rdf:type             brick:Temperature_Sensor ;
+        brick:hasLocation    nest_location:Room_271 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strH1.strB820.rValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20H1_B820 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150242" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20H1_P890_M00
+        rdf:type             brick:Power_Sensor ;
+        brick:hasLocation    nest_location:Room_271 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strH1.strP890.rValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20H1_P890 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150262" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R3_B870_M03
+        rdf:type             brick:Illuminance_Sensor ;
+        brick:hasLocation    nest_location:Room_273 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR3.strB870.rValue4" ;
+        brick:isPointOf      nest_equipment:65NT_U20R3_B870 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150303" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R4_B870_M00
+        rdf:type             brick:Temperature_Sensor ;
+        brick:hasLocation    nest_location:Room_274 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR4.strB870.rValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20R4_B870 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150312" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20E1_P001_M00
+        rdf:type             brick:Power_Sensor ;
+        brick:hasLocation    nest_location:Room_271 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-06402-D001.PLC1.microgrid.strRead.strEnergiemessung.strU20E1_P001.rSumWirkleistung" ;
+        brick:isPointOf      nest_equipment:65NT_U20E1_P001 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150423" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R2_B870_M03
+        rdf:type             brick:Illuminance_Sensor ;
+        brick:hasLocation    nest_location:Room_272 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR2.strB870.rValue4" ;
+        brick:isPointOf      nest_equipment:65NT_U20R2_B870 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150291" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_NTM31_P890_M00
+        rdf:type             brick:Power_Sensor ;
+        brick:hasLocation    nest_location:Room_271 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-06421-D001.PLC1.Units.str2T0.strRead.strAktoren.strNTM31.strY760.rLeistung" ;
+        brick:isPointOf      nest_equipment:65NT_NTM31_P890 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150459" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R3_B870_M01
+        rdf:type             brick:Humidity_Sensor ;
+        brick:hasLocation    nest_location:Room_273 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR3.strB870.rValue2" ;
+        brick:isPointOf      nest_equipment:65NT_U20R3_B870 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150301" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
+
+nest_point:65NT_U20R1_S102_D00
+        rdf:type             brick:Open_Close_Status ;
+        brick:hasLocation    nest_location:Room_273 ;
+        brick:hasOpcAddress  "ns=2;s=Gateway.PLC1.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strR1.strS102.bValue1" ;
+        brick:isPointOf      nest_equipment:65NT_U20R1_S102 ;
+        brick:timeseries     [ brick:hasTimeseriesId  "42150286" ;
+                               brick:storedAt         <https://visualizer.nestcollaboration.ch/Backend/api/v1/datapoints/>
+                             ] .
