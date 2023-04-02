@@ -8,7 +8,7 @@ Pipelines are comprised of the following stages:
 
 **3. Conversion to RDF knowledge graph.** The conversion to an RDF knowledge involves operating on the raw or transformed data to generate the serialization format for the knowledge graph. In the example pipeline, a tool known as SPARQL-Generate is used<sup>1</sup>. 
 
-**4. Upload the RDF to a triple store.** A triple store contains the RDF information and provides an endpoint to query the data.  Example .ttl files are stored in the Results folder. These are imported to the NEST triple store and can be queried at this endpoint: https://graphdb.nestcloud.ch/
+**4. Upload the RDF to a triple store.** A triple store contains the RDF information and provides an endpoint to query the data.  Example .ttl files are stored in the Results folder. These are imported to the NEST triple store and can be queried at this endpoint: https://graphdb.nestcloud.ch/ (New users can register for an account)
 
 **5. Query the data.** The data can be queried using API or the GraphDB workbench. The first step is to select the SPARQL tab and then you can open some example queries on the data. The image below illustrates these two steps:  
 
