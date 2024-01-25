@@ -25,3 +25,6 @@ aksCode_URI,Point_URI,brick_PointType,nest_Equipment_URI,Room_URI,opcUaPublic
 65NT_U20E1_P001_M00,42150423,Power_Sensor,65NT_U20E1_P001,Room_271,ns=2;s=Gateway.PLC1.65NT-06402-D001.PLC1.microgrid.strRead.strEnergiemessung.strU20E1_P001.rSumWirkleistung
 65NT_NTM31_P890_M00,42150459,Power_Sensor,65NT_NTM31_P890,Room_271,ns=2;s=Gateway.PLC1.65NT-06421-D001.PLC1.Units.str2T0.strRead.strAktoren.strNTM31.strY760.rLeistung
 65NT_MTM31_P890_M00,42150477,Power_Sensor,65NT_MTM31_P890,Room_271,ns=2;s=Gateway.PLC1.65NT-06421-D001.PLC1.Units.str2T0.strRead.strAktoren.strMTM31.strY760.rLeistung
+65NT_U20E1_P890_M00,42150369,Power_Sensor,65NT_U20E1_P890,Room_271,ns=2;s=Gateway.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strE1.strP890.rLeistungTotal
+65NT_U20E1_P890_M01,42150385,Energy_Sensor,65NT_U20E1_P890,Room_271,ns=2;s=Gateway.65NT-70201-D001.PLC1.Units.str2T0.strRead.strSensoren.strE1.strP890.rEnergieBezogen
+65NT_MET51_B870_M00,3200000,Outside_Air_Temperature_Sensor,65NT_MET51_B870,Room_401,ns=2;s=Gateway.PLC1.65NT-03032-D001.PLC1.MET51.strMET51Read.strWetterstation.strStation1.lrLufttemperatur

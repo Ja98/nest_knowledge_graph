@@ -48,3 +48,6 @@ https://info.nestcollaboration.ch/wikipedia/location/Room_274,https://brickschem
 https://info.nestcollaboration.ch/wikipedia/location/Room_275,https://brickschema.org/schema/Brick#hasLocation,https://info.nestcollaboration.ch/wikipedia/location/Umar
 https://info.nestcollaboration.ch/wikipedia/location/Room_276,https://brickschema.org/schema/Brick#hasLocation,https://info.nestcollaboration.ch/wikipedia/location/Umar
 https://info.nestcollaboration.ch/wikipedia/location/Umar,https://brickschema.org/schema/Brick#hasLocation,https://info.nestcollaboration.ch/wikipedia/location/NEST
+https://info.nestcollaboration.ch/wikipedia/location/Room_270,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,https://brickschema.org/schema/Brick#Room
+https://info.nestcollaboration.ch/wikipedia/location/Room_401,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,https://brickschema.org/schema/Brick#Outdoor_Area
+https://info.nestcollaboration.ch/wikipedia/location/Room_401,https://brickschema.org/schema/Brick#hasLocation,https://info.nestcollaboration.ch/wikipedia/location/NEST
