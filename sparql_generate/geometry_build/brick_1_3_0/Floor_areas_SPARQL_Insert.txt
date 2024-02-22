@@ -1,0 +1,30 @@
+PREFIX brick: <https://brickschema.org/schema/Brick#>
+
+INSERT DATA {
+  GRAPH <https://www.empa.ch/digital-twin/campus_layout/floor_areas> { 
+    <https://www.empa.ch/digital-twin/location/VW> brick:area <https://www.empa.ch/digital-twin/location/VW/property/area> .
+    <https://www.empa.ch/digital-twin/location/Hilo> brick:area <https://www.empa.ch/digital-twin/location/Hilo/property/area> .
+    <https://www.empa.ch/digital-twin/location/UMAR> brick:area <https://www.empa.ch/digital-twin/location/UMAR/property/area> .
+    <https://www.empa.ch/digital-twin/location/Solace> brick:area <https://www.empa.ch/digital-twin/location/Solace/property/area> .
+    <https://www.empa.ch/digital-twin/location/DFAB> brick:area <https://www.empa.ch/digital-twin/location/DFAB/property/area> .
+    <https://www.empa.ch/digital-twin/location/M2C> brick:area <https://www.empa.ch/digital-twin/location/M2C/property/area> .
+    <https://www.empa.ch/digital-twin/location/Sprint> brick:area <https://www.empa.ch/digital-twin/location/Sprint/property/area> .
+    <https://www.empa.ch/digital-twin/location/SFW/property/area> brick:value 197 .
+    <https://www.empa.ch/digital-twin/location/VW/property/area> brick:value 130 .
+    <https://www.empa.ch/digital-twin/location/Hilo/property/area> brick:value 159 .
+    <https://www.empa.ch/digital-twin/location/UMAR/property/area> brick:value 155 .
+    <https://www.empa.ch/digital-twin/location/Solace/property/area> brick:value 103 .
+    <https://www.empa.ch/digital-twin/location/DFAB/property/area> brick:value 240 .
+    <https://www.empa.ch/digital-twin/location/M2C/property/area> brick:value 279 .
+    <https://www.empa.ch/digital-twin/location/Sprint/property/area> brick:value 167 .
+    <https://www.empa.ch/digital-twin/location/SFW/property/area> brick:hasUnit <http://qudt.org/vocab/unit#M2> .
+    <https://www.empa.ch/digital-twin/location/VW/property/area> brick:hasUnit <http://qudt.org/vocab/unit#M2> .
+    <https://www.empa.ch/digital-twin/location/Hilo/property/area> brick:hasUnit <http://qudt.org/vocab/unit#M2> .
+    <https://www.empa.ch/digital-twin/location/UMAR/property/area> brick:hasUnit <http://qudt.org/vocab/unit#M2> .
+    <https://www.empa.ch/digital-twin/location/Solace/property/area> brick:hasUnit <http://qudt.org/vocab/unit#M2> .
+    <https://www.empa.ch/digital-twin/location/DFAB/property/area> brick:hasUnit <http://qudt.org/vocab/unit#M2> .
+    <https://www.empa.ch/digital-twin/location/M2C/property/area> brick:hasUnit <http://qudt.org/vocab/unit#M2> .
+    <https://www.empa.ch/digital-twin/location/Sprint/property/area> brick:hasUnit <http://qudt.org/vocab/unit#M2> .
+  }
+}
+
