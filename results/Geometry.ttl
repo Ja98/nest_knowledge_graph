@@ -1,69 +1,141 @@
 @prefix brick: <https://brickschema.org/schema/Brick#> .
 @prefix ite:   <http://w3id.org/sparql-generate/iter/> .
-@prefix nest:  <https://info.nestcollaboration.ch/wikipedia/> .
+@prefix nest:  <https://www.empa.ch/digital-twin/> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://info.nestcollaboration.ch/wikipedia/location/Room_274>
+<https://www.empa.ch/digital-twin/location/Room_270>
         rdf:type            brick:Room ;
-        brick:hasLocation   <https://info.nestcollaboration.ch/wikipedia/location/Umar> , <https://info.nestcollaboration.ch/wikipedia/location/U20Z4> ;
-        brick:isAdjacentOf  <https://info.nestcollaboration.ch/wikipedia/location/Room_275> , <https://info.nestcollaboration.ch/wikipedia/location/Room_273> .
+        brick:hasLocation   <https://www.empa.ch/digital-twin/location/Umar> ;
+        brick:isAdjacentOf  <https://www.empa.ch/digital-twin/location/Room_276> , <https://www.empa.ch/digital-twin/location/Room_273> , <https://www.empa.ch/digital-twin/location/Room_271> .
 
-<https://info.nestcollaboration.ch/wikipedia/location/U20Z1>
-        rdf:type  brick:HVAC_Zone .
-
-<https://info.nestcollaboration.ch/wikipedia/location/U20Z6>
-        rdf:type  brick:HVAC_Zone .
-
-<https://info.nestcollaboration.ch/wikipedia/location/Room_272>
+<https://www.empa.ch/digital-twin/location/Room_276>
         rdf:type            brick:Room ;
-        brick:hasLocation   <https://info.nestcollaboration.ch/wikipedia/location/Umar> , <https://info.nestcollaboration.ch/wikipedia/location/U20Z2> ;
-        brick:isAdjacentOf  <https://info.nestcollaboration.ch/wikipedia/location/Room_273> .
+        brick:hasLocation   <https://www.empa.ch/digital-twin/location/Umar> , <https://www.empa.ch/digital-twin/location/U20Z6> ;
+        brick:isAdjacentOf  <https://www.empa.ch/digital-twin/location/Room_275> , <https://www.empa.ch/digital-twin/location/Room_273> , <https://www.empa.ch/digital-twin/location/Room_270> .
 
-<https://info.nestcollaboration.ch/wikipedia/location/U20Z4>
-        rdf:type  brick:HVAC_Zone .
+<https://www.empa.ch/digital-twin/location/Room_180>
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/Sprint> .
 
-<https://info.nestcollaboration.ch/wikipedia/location/NEST>
+<https://www.empa.ch/digital-twin/location/2nd_Floor>
+        rdf:type           brick:Floor ;
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/NEST> .
+
+<https://www.empa.ch/digital-twin/location/NEST>
         rdf:type  brick:Building .
 
-<https://info.nestcollaboration.ch/wikipedia/location/2nd_Floor>
-        rdf:type           brick:Floor ;
-        brick:hasLocation  <https://info.nestcollaboration.ch/wikipedia/location/NEST> .
-
-<https://info.nestcollaboration.ch/wikipedia/location/Room_270>
-        rdf:type            brick:Room ;
-        brick:hasLocation   <https://info.nestcollaboration.ch/wikipedia/location/Umar> ;
-        brick:isAdjacentOf  <https://info.nestcollaboration.ch/wikipedia/location/Room_276> , <https://info.nestcollaboration.ch/wikipedia/location/Room_273> , <https://info.nestcollaboration.ch/wikipedia/location/Room_271> .
-
-<https://info.nestcollaboration.ch/wikipedia/location/Room_275>
-        rdf:type            brick:Room ;
-        brick:hasLocation   <https://info.nestcollaboration.ch/wikipedia/location/Umar> , <https://info.nestcollaboration.ch/wikipedia/location/U20Z5> ;
-        brick:isAdjacentOf  <https://info.nestcollaboration.ch/wikipedia/location/Room_276> , <https://info.nestcollaboration.ch/wikipedia/location/Room_274> .
-
-<https://info.nestcollaboration.ch/wikipedia/location/U20Z2>
+<https://www.empa.ch/digital-twin/location/U20Z2>
         rdf:type  brick:HVAC_Zone .
 
-<https://info.nestcollaboration.ch/wikipedia/location/Umar>
+<https://www.empa.ch/digital-twin/location/Room_275>
+        rdf:type            brick:Room ;
+        brick:hasLocation   <https://www.empa.ch/digital-twin/location/Umar> , <https://www.empa.ch/digital-twin/location/U20Z5> ;
+        brick:isAdjacentOf  <https://www.empa.ch/digital-twin/location/Room_276> , <https://www.empa.ch/digital-twin/location/Room_274> .
+
+<https://www.empa.ch/digital-twin/location/DFAB>
         rdf:type           brick:Space ;
-        brick:hasLocation  <https://info.nestcollaboration.ch/wikipedia/location/NEST> .
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/NEST> .
 
-<https://info.nestcollaboration.ch/wikipedia/location/Room_273>
-        rdf:type            brick:Room ;
-        brick:hasLocation   <https://info.nestcollaboration.ch/wikipedia/location/Umar> , <https://info.nestcollaboration.ch/wikipedia/location/U20Z3> ;
-        brick:isAdjacentOf  <https://info.nestcollaboration.ch/wikipedia/location/Room_276> , <https://info.nestcollaboration.ch/wikipedia/location/Room_274> , <https://info.nestcollaboration.ch/wikipedia/location/Room_272> , <https://info.nestcollaboration.ch/wikipedia/location/Room_271> , <https://info.nestcollaboration.ch/wikipedia/location/Room_270> .
+<https://www.empa.ch/digital-twin/location/Room_401>
+        rdf:type           brick:Outdoor_Area ;
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/NEST> .
 
-<https://info.nestcollaboration.ch/wikipedia/location/U20Z5>
+<https://www.empa.ch/digital-twin/location/U20Z1>
         rdf:type  brick:HVAC_Zone .
 
-<https://info.nestcollaboration.ch/wikipedia/location/Room_271>
-        rdf:type            brick:Room ;
-        brick:hasLocation   <https://info.nestcollaboration.ch/wikipedia/location/U20Z1> ;
-        brick:isAdjacentOf  <https://info.nestcollaboration.ch/wikipedia/location/Room_273> , <https://info.nestcollaboration.ch/wikipedia/location/Room_270> ;
-        brick:isLocationOf  <https://info.nestcollaboration.ch/wikipedia/location/Umar> .
+<https://www.empa.ch/digital-twin/location/Room_311>
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/DFAB> , <https://www.empa.ch/digital-twin/location/SFW> .
 
-<https://info.nestcollaboration.ch/wikipedia/location/Room_276>
-        rdf:type            brick:Room ;
-        brick:hasLocation   <https://info.nestcollaboration.ch/wikipedia/location/Umar> , <https://info.nestcollaboration.ch/wikipedia/location/U20Z6> ;
-        brick:isAdjacentOf  <https://info.nestcollaboration.ch/wikipedia/location/Room_275> , <https://info.nestcollaboration.ch/wikipedia/location/Room_273> , <https://info.nestcollaboration.ch/wikipedia/location/Room_270> .
+<https://www.empa.ch/digital-twin/location/Room_150>
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/M2C> .
 
-<https://info.nestcollaboration.ch/wikipedia/location/U20Z3>
+<https://www.empa.ch/digital-twin/location/Room_221>
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/VW> .
+
+<https://www.empa.ch/digital-twin/location/Room_274>
+        rdf:type            brick:Room ;
+        brick:hasLocation   <https://www.empa.ch/digital-twin/location/Umar> , <https://www.empa.ch/digital-twin/location/U20Z4> ;
+        brick:isAdjacentOf  <https://www.empa.ch/digital-twin/location/Room_275> , <https://www.empa.ch/digital-twin/location/Room_273> .
+
+<https://www.empa.ch/digital-twin/location/SFW>
+        rdf:type           brick:Space ;
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/NEST> .
+
+<https://www.empa.ch/digital-twin/location/Room_140>
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/M2C> .
+
+<https://www.empa.ch/digital-twin/location/Room_211>
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/Solace> , <https://www.empa.ch/digital-twin/location/UMAR> .
+
+<https://www.empa.ch/digital-twin/location/U20Z6>
         rdf:type  brick:HVAC_Zone .
+
+<https://www.empa.ch/digital-twin/location/Room_121>
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/M2C> .
+
+<https://www.empa.ch/digital-twin/location/Room_273>
+        rdf:type            brick:Room ;
+        brick:hasLocation   <https://www.empa.ch/digital-twin/location/Umar> , <https://www.empa.ch/digital-twin/location/U20Z3> ;
+        brick:isAdjacentOf  <https://www.empa.ch/digital-twin/location/Room_276> , <https://www.empa.ch/digital-twin/location/Room_274> , <https://www.empa.ch/digital-twin/location/Room_272> , <https://www.empa.ch/digital-twin/location/Room_271> , <https://www.empa.ch/digital-twin/location/Room_270> .
+
+<https://www.empa.ch/digital-twin/location/M2C>
+        rdf:type           brick:Space ;
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/NEST> .
+
+<https://www.empa.ch/digital-twin/location/Sprint>
+        rdf:type           brick:Space ;
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/NEST> .
+
+<https://www.empa.ch/digital-twin/location/Solace>
+        rdf:type           brick:Space ;
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/NEST> .
+
+<https://www.empa.ch/digital-twin/location/Room_306>
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/Hilo> .
+
+<https://www.empa.ch/digital-twin/location/Room_210>
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/Sprint> .
+
+<https://www.empa.ch/digital-twin/location/U20Z5>
+        rdf:type  brick:HVAC_Zone .
+
+<https://www.empa.ch/digital-twin/location/Room_272>
+        rdf:type            brick:Room ;
+        brick:hasLocation   <https://www.empa.ch/digital-twin/location/Umar> , <https://www.empa.ch/digital-twin/location/U20Z2> ;
+        brick:isAdjacentOf  <https://www.empa.ch/digital-twin/location/Room_273> .
+
+<https://www.empa.ch/digital-twin/location/VW>
+        rdf:type           brick:Space ;
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/NEST> .
+
+<https://www.empa.ch/digital-twin/location/Room_234>
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/Solace> .
+
+<https://www.empa.ch/digital-twin/location/U20Z4>
+        rdf:type  brick:HVAC_Zone .
+
+<https://www.empa.ch/digital-twin/location/Room_342>
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/Hilo> .
+
+<https://www.empa.ch/digital-twin/location/Room_271>
+        rdf:type            brick:Room ;
+        brick:hasLocation   <https://www.empa.ch/digital-twin/location/UMAR> , <https://www.empa.ch/digital-twin/location/U20Z1> ;
+        brick:isAdjacentOf  <https://www.empa.ch/digital-twin/location/Room_273> , <https://www.empa.ch/digital-twin/location/Room_270> ;
+        brick:isLocationOf  <https://www.empa.ch/digital-twin/location/Umar> .
+
+<https://www.empa.ch/digital-twin/location/UMAR>
+        rdf:type           brick:Space ;
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/NEST> .
+
+<https://www.empa.ch/digital-twin/location/Umar>
+        rdf:type           brick:Space ;
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/NEST> .
+
+<https://www.empa.ch/digital-twin/location/U20Z3>
+        rdf:type  brick:HVAC_Zone .
+
+<https://www.empa.ch/digital-twin/location/Hilo>
+        rdf:type           brick:Space ;
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/NEST> .
+
+<https://www.empa.ch/digital-twin/location/Room_394>
+        brick:hasLocation  <https://www.empa.ch/digital-twin/location/SFW> .
