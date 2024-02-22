@@ -1,8 +1,8 @@
-prefix nest: <https://info.nestcollaboration.ch/wikipedia/>
-prefix nest_location: <https://info.nestcollaboration.ch/wikipedia/location/>
-prefix nest_equipment: <https://info.nestcollaboration.ch/wikipedia/equipment/>
-prefix nest_point: <https://info.nestcollaboration.ch/wikipedia/point/>
-prefix nest_collection: <https://info.nestcollaboration.ch/wikipedia/collection/>
+prefix nest: <https://www.empa.ch/digital-twin/>
+prefix nest_location: <https://www.empa.ch/digital-twin/location/>
+prefix nest_equipment: <https://www.empa.ch/digital-twin/equipment/>
+prefix nest_point: <https://www.empa.ch/digital-twin/point/>
+prefix nest_collection: <https://www.empa.ch/digital-twin/collection/>
 prefix brick: <https://brickschema.org/schema/Brick#>
 prefix ite: <http://w3id.org/sparql-generate/iter/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -48,13 +48,13 @@ ITERATOR ite:CSV(<Equipment.csv>, true, '"', ',','\n',
 ?isPartOf_Electrical_System
 
 WHERE {
-    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/equipment/",?NEST_Equipment)) AS ?NEST_Equipment_URI)
+    BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/equipment/",?NEST_Equipment)) AS ?NEST_Equipment_URI)
     BIND(IRI(CONCAT("https://brickschema.org/schema/Brick#",ENCODE_FOR_URI(?Brick_Class))) AS ?BrickClass_Type)
-    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/location/",ENCODE_FOR_URI(?Location))) AS ?Location_URI)
-    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/equipment/",ENCODE_FOR_URI(?Feeds))) AS ?feeds_Equipment_URI)
-    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/equipment/",ENCODE_FOR_URI(?isSubmeterOf))) AS ?isSubmeterOf_Equipment_URI)
-    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/equipment/",ENCODE_FOR_URI(?isPartOf_equipment))) AS ?isPartOf_Equipment_URI)
-    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/loops/",ENCODE_FOR_URI(?isPartOf_Water_Loop))) AS ?Water_Loop_URI)
-    BIND(IRI(CONCAT("https://info.nestcollaboration.ch/wikipedia/systems/",ENCODE_FOR_URI(?isPartOf_Electrical_System))) AS ?Electrical_System_URI)
+    BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/location/",ENCODE_FOR_URI(?Location))) AS ?Location_URI)
+    BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/equipment/",ENCODE_FOR_URI(?Feeds))) AS ?feeds_Equipment_URI)
+    BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/equipment/",ENCODE_FOR_URI(?isSubmeterOf))) AS ?isSubmeterOf_Equipment_URI)
+    BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/equipment/",ENCODE_FOR_URI(?isPartOf_equipment))) AS ?isPartOf_Equipment_URI)
+    BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/loops/",ENCODE_FOR_URI(?isPartOf_Water_Loop))) AS ?Water_Loop_URI)
+    BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/systems/",ENCODE_FOR_URI(?isPartOf_Electrical_System))) AS ?Electrical_System_URI)
 }
 

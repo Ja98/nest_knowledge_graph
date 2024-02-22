@@ -1,4 +1,4 @@
-prefix nest: <https://info.nestcollaboration.ch/wikipedia/>
+prefix nest: <https://www.empa.ch/digital-twin/>
 prefix brick: <https://brickschema.org/schema/Brick#>
 prefix ite: <http://w3id.org/sparql-generate/iter/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
