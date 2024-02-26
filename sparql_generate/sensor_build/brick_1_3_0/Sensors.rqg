@@ -15,7 +15,7 @@ GENERATE {
     brick:isPointOf ?nest_Equipment_URI;
     brick:hasOpcAddress ?opcUaPublic;
     ref:hasExternalReference [
-                a ref:TimeseriesReference
+                a ref:TimeseriesReference;
     	        ref:hasTimeseriesId ?Point;
     	        ref:storedAt ?timeseries_address;
     	        ];
