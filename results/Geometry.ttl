@@ -5,12 +5,12 @@
 
 <https://www.empa.ch/digital-twin/location/Room_270>
         rdf:type            brick:Room ;
-        brick:hasLocation   <https://www.empa.ch/digital-twin/location/Umar> ;
+        brick:hasLocation   <https://www.empa.ch/digital-twin/location/UMAR> ;
         brick:isAdjacentOf  <https://www.empa.ch/digital-twin/location/Room_276> , <https://www.empa.ch/digital-twin/location/Room_273> , <https://www.empa.ch/digital-twin/location/Room_271> .
 
 <https://www.empa.ch/digital-twin/location/Room_276>
         rdf:type            brick:Room ;
-        brick:hasLocation   <https://www.empa.ch/digital-twin/location/Umar> , <https://www.empa.ch/digital-twin/location/U20Z6> ;
+        brick:hasLocation   <https://www.empa.ch/digital-twin/location/UMAR> , <https://www.empa.ch/digital-twin/location/U20Z6> ;
         brick:isAdjacentOf  <https://www.empa.ch/digital-twin/location/Room_275> , <https://www.empa.ch/digital-twin/location/Room_273> , <https://www.empa.ch/digital-twin/location/Room_270> .
 
 <https://www.empa.ch/digital-twin/location/Room_180>
@@ -28,7 +28,7 @@
 
 <https://www.empa.ch/digital-twin/location/Room_275>
         rdf:type            brick:Room ;
-        brick:hasLocation   <https://www.empa.ch/digital-twin/location/Umar> , <https://www.empa.ch/digital-twin/location/U20Z5> ;
+        brick:hasLocation   <https://www.empa.ch/digital-twin/location/UMAR> , <https://www.empa.ch/digital-twin/location/U20Z5> ;
         brick:isAdjacentOf  <https://www.empa.ch/digital-twin/location/Room_276> , <https://www.empa.ch/digital-twin/location/Room_274> .
 
 <https://www.empa.ch/digital-twin/location/DFAB>
@@ -53,7 +53,7 @@
 
 <https://www.empa.ch/digital-twin/location/Room_274>
         rdf:type            brick:Room ;
-        brick:hasLocation   <https://www.empa.ch/digital-twin/location/Umar> , <https://www.empa.ch/digital-twin/location/U20Z4> ;
+        brick:hasLocation   <https://www.empa.ch/digital-twin/location/UMAR> , <https://www.empa.ch/digital-twin/location/U20Z4> ;
         brick:isAdjacentOf  <https://www.empa.ch/digital-twin/location/Room_275> , <https://www.empa.ch/digital-twin/location/Room_273> .
 
 <https://www.empa.ch/digital-twin/location/SFW>
@@ -74,7 +74,7 @@
 
 <https://www.empa.ch/digital-twin/location/Room_273>
         rdf:type            brick:Room ;
-        brick:hasLocation   <https://www.empa.ch/digital-twin/location/Umar> , <https://www.empa.ch/digital-twin/location/U20Z3> ;
+        brick:hasLocation   <https://www.empa.ch/digital-twin/location/UMAR> , <https://www.empa.ch/digital-twin/location/U20Z3> ;
         brick:isAdjacentOf  <https://www.empa.ch/digital-twin/location/Room_276> , <https://www.empa.ch/digital-twin/location/Room_274> , <https://www.empa.ch/digital-twin/location/Room_272> , <https://www.empa.ch/digital-twin/location/Room_271> , <https://www.empa.ch/digital-twin/location/Room_270> .
 
 <https://www.empa.ch/digital-twin/location/M2C>
@@ -100,7 +100,7 @@
 
 <https://www.empa.ch/digital-twin/location/Room_272>
         rdf:type            brick:Room ;
-        brick:hasLocation   <https://www.empa.ch/digital-twin/location/Umar> , <https://www.empa.ch/digital-twin/location/U20Z2> ;
+        brick:hasLocation   <https://www.empa.ch/digital-twin/location/UMAR> , <https://www.empa.ch/digital-twin/location/U20Z2> ;
         brick:isAdjacentOf  <https://www.empa.ch/digital-twin/location/Room_273> .
 
 <https://www.empa.ch/digital-twin/location/VW>
@@ -120,13 +120,9 @@
         rdf:type            brick:Room ;
         brick:hasLocation   <https://www.empa.ch/digital-twin/location/UMAR> , <https://www.empa.ch/digital-twin/location/U20Z1> ;
         brick:isAdjacentOf  <https://www.empa.ch/digital-twin/location/Room_273> , <https://www.empa.ch/digital-twin/location/Room_270> ;
-        brick:isLocationOf  <https://www.empa.ch/digital-twin/location/Umar> .
+        brick:isLocationOf  <https://www.empa.ch/digital-twin/location/UMAR> .
 
 <https://www.empa.ch/digital-twin/location/UMAR>
-        rdf:type           brick:Space ;
-        brick:hasLocation  <https://www.empa.ch/digital-twin/location/NEST> .
-
-<https://www.empa.ch/digital-twin/location/Umar>
         rdf:type           brick:Space ;
         brick:hasLocation  <https://www.empa.ch/digital-twin/location/NEST> .
 
