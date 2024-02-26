@@ -6,6 +6,7 @@ prefix nest_collection: <https://www.empa.ch/digital-twin/collection/>
 prefix brick: <https://brickschema.org/schema/Brick#>
 prefix ite: <http://w3id.org/sparql-generate/iter/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ref: <https://brickschema.org/schema/Brick/ref#>
 
 GENERATE {
 
@@ -13,9 +14,10 @@ GENERATE {
     brick:hasLocation ?Room_URI;
     brick:isPointOf ?nest_Equipment_URI;
     brick:hasOpcAddress ?opcUaPublic;
-    brick:timeseries [
-    	        brick:hasTimeseriesId ?Point;
-    	        brick:storedAt ?timeseries_address;
+    ref:hasExternalReference [
+                a ref:TimeseriesReference
+    	        ref:hasTimeseriesId ?Point;
+    	        ref:storedAt ?timeseries_address;
     	        ];
     	        .
 
