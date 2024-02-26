@@ -12,6 +12,7 @@ GENERATE {
 ?NEST_Equipment_URI a ?BrickClass_Type;
     brick:hasLocation ?Location_URI;
     brick:feeds ?feeds_Equipment_URI;
+    brick:meters ?metered_unit_URI;
     brick:isSubmeterOf ?isSubmeterOf_Equipment_URI;
     brick:isPartOf ?isPartOf_Equipment_URI;
     brick:isPartOf ?Water_Loop_URI;
@@ -29,6 +30,7 @@ ITERATOR ite:CSV(<Equipment.csv>, true, '"', ',','\n',
 "Brick Class",
 "Location",
 "Feeds",
+"meters",
 "isSubmeterOf",
 "isPartOf_equipment",
 "isPartOf_Water_Loop",
@@ -42,6 +44,7 @@ ITERATOR ite:CSV(<Equipment.csv>, true, '"', ',','\n',
 ?Brick_Class
 ?Location
 ?Feeds
+?metered_unit
 ?isSubmeterOf
 ?isPartOf_equipment
 ?isPartOf_Water_Loop
@@ -52,6 +55,7 @@ WHERE {
     BIND(IRI(CONCAT("https://brickschema.org/schema/Brick#",ENCODE_FOR_URI(?Brick_Class))) AS ?BrickClass_Type)
     BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/location/",ENCODE_FOR_URI(?Location))) AS ?Location_URI)
     BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/equipment/",ENCODE_FOR_URI(?Feeds))) AS ?feeds_Equipment_URI)
+    BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/location/",ENCODE_FOR_URI(?metered_unit))) AS ?metered_unit_URI)
     BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/equipment/",ENCODE_FOR_URI(?isSubmeterOf))) AS ?isSubmeterOf_Equipment_URI)
     BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/equipment/",ENCODE_FOR_URI(?isPartOf_equipment))) AS ?isPartOf_Equipment_URI)
     BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/loops/",ENCODE_FOR_URI(?isPartOf_Water_Loop))) AS ?Water_Loop_URI)

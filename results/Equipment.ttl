@@ -17,11 +17,13 @@ nest_equipment:65NT_U20H1_Y700
 
 nest_equipment:65NT_U25N1_P890
         rdf:type           brick:Building_Chilled_Water_Meter ;
-        brick:hasLocation  nest_location:Room_234 .
+        brick:hasLocation  nest_location:Room_234 ;
+        brick:meters       nest_location:Solace .
 
 nest_equipment:65NT_U36N1_P890
         rdf:type           brick:Building_Chilled_Water_Meter ;
-        brick:hasLocation  nest_location:Room_342 .
+        brick:hasLocation  nest_location:Room_342 ;
+        brick:meters       nest_location:Hilo .
 
 nest_equipment:65NT_U20R1_E564
         rdf:type           brick:RC_Panel ;
@@ -36,7 +38,8 @@ nest_equipment:65NT_U20N1_Y700
 
 nest_equipment:65NT_U10N1_Y710
         rdf:type           brick:Building_Chilled_Water_Meter ;
-        brick:hasLocation  nest_location:Room_180 .
+        brick:hasLocation  nest_location:Room_180 ;
+        brick:meters       nest_location:Sprint .
 
 nest_equipment:65NT_U20N1_Y741
         rdf:type           brick:HVAC_Valve ;
@@ -45,7 +48,8 @@ nest_equipment:65NT_U20N1_Y741
 
 nest_equipment:65NT_U30M2_P890
         rdf:type           brick:Building_Heating_Water_Meter ;
-        brick:hasLocation  nest_location:Room_394 .
+        brick:hasLocation  nest_location:Room_394 ;
+        brick:meters       nest_location:SFW .
 
 nest_equipment:65NT_U20S1_E560
         rdf:type           brick:Heat_Exchanger ;
@@ -60,11 +64,13 @@ nest_equipment:65NT_U20H1_Y761
 nest_equipment:65NT_NTM31_P890
         rdf:type           brick:Building_Chilled_Water_Meter ;
         brick:hasLocation  nest_location:Room_211 , nest_location:Room_271 ;
-        brick:isPartOf     <https://www.empa.ch/digital-twin/loops/NTE_supply_subLoop> .
+        brick:isPartOf     <https://www.empa.ch/digital-twin/loops/NTE_supply_subLoop> ;
+        brick:meters       nest_location:UMAR .
 
 nest_equipment:65NT_MTM24_P890
         rdf:type           brick:Building_Heating_Water_Meter ;
-        brick:hasLocation  nest_location:Room_121 .
+        brick:hasLocation  nest_location:Room_121 ;
+        brick:meters       nest_location:M2C .
 
 nest_equipment:65NT_U20R1_Y103
         rdf:type           brick:HVAC_Valve ;
@@ -79,11 +85,13 @@ nest_equipment:65NT_U20M1_E260
 
 nest_equipment:65NT_U30M1_P890
         rdf:type           brick:Building_Heating_Water_Meter ;
-        brick:hasLocation  nest_location:Room_394 .
+        brick:hasLocation  nest_location:Room_394 ;
+        brick:meters       nest_location:SFW .
 
 nest_equipment:65NT_U10N1_P890
         rdf:type           brick:Building_Chilled_Water_Meter ;
-        brick:hasLocation  nest_location:Room_180 .
+        brick:hasLocation  nest_location:Room_180 ;
+        brick:meters       nest_location:Sprint .
 
 nest_equipment:65NT_U20H1_E260
         rdf:type           brick:Coil ;
@@ -93,15 +101,18 @@ nest_equipment:65NT_U20H1_E260
 
 nest_equipment:65NT_MTM23_P890
         rdf:type           brick:Building_Heating_Water_Meter ;
-        brick:hasLocation  nest_location:Room_121 .
+        brick:hasLocation  nest_location:Room_121 ;
+        brick:meters       nest_location:M2C .
 
 nest_equipment:65NT_NTM34_P890
         rdf:type           brick:Building_Chilled_Water_Meter ;
-        brick:hasLocation  nest_location:Room_221 .
+        brick:hasLocation  nest_location:Room_221 ;
+        brick:meters       nest_location:VW .
 
 nest_equipment:65NT_U33E1_P001
         rdf:type           brick:Building_Electrical_Meter ;
-        brick:hasLocation  nest_location:Room_311 .
+        brick:hasLocation  nest_location:Room_311 ;
+        brick:meters       nest_location:DFAB .
 
 nest_equipment:65NT_U20R1_E563
         rdf:type           brick:RC_Panel ;
@@ -111,7 +122,8 @@ nest_equipment:65NT_U20R1_E563
 
 nest_equipment:65NT_HTM34_P890
         rdf:type           brick:Building_Hot_Water_Meter ;
-        brick:hasLocation  nest_location:Room_221 .
+        brick:hasLocation  nest_location:Room_221 ;
+        brick:meters       nest_location:VW .
 
 nest_equipment:65NT_U20H1_M200
         rdf:type           brick:Water_Pump ;
@@ -121,7 +133,8 @@ nest_equipment:65NT_U20H1_M200
 
 nest_equipment:65NT_U12M1_P890
         rdf:type           brick:Building_Heating_Water_Meter ;
-        brick:hasLocation  nest_location:Room_150 .
+        brick:hasLocation  nest_location:Room_150 ;
+        brick:meters       nest_location:M2C .
 
 nest_equipment:65NT_U20H1_Y760
         rdf:type           brick:HVAC_Valve ;
@@ -133,7 +146,8 @@ nest_equipment:65NT_U20H1_Y760
 
 nest_equipment:65NT_U30E1_P001
         rdf:type           brick:Building_Electrical_Meter ;
-        brick:hasLocation  nest_location:Room_311 .
+        brick:hasLocation  nest_location:Room_311 ;
+        brick:meters       nest_location:SFW .
 
 nest_equipment:65NT_U20R1_Y102
         rdf:type           brick:HVAC_Valve ;
@@ -150,7 +164,8 @@ nest_equipment:65NT_MTM31_P890
         rdf:type           brick:Building_Heating_Water_Meter , brick:Building_Hot_Water_Meter ;
         brick:feeds        nest_equipment:65NT_U20M1_M200 ;
         brick:hasLocation  nest_location:Room_211 , nest_location:Room_271 ;
-        brick:isPartOf     <https://www.empa.ch/digital-twin/loops/MTE_supply_subLoop> .
+        brick:isPartOf     <https://www.empa.ch/digital-twin/loops/MTE_supply_subLoop> ;
+        brick:meters       nest_location:UMAR .
 
 nest_equipment:65NT_U20M1_Y730
         rdf:type           brick:HVAC_Valve ;
@@ -166,23 +181,28 @@ nest_equipment:65NT_U20R1_E562
 
 nest_equipment:65NT_U23E1_P001
         rdf:type           brick:Building_Electrical_Meter ;
-        brick:hasLocation  nest_location:Room_221 .
+        brick:hasLocation  nest_location:Room_221 ;
+        brick:meters       nest_location:VW .
 
 nest_equipment:65NT_U30N2_P890
         rdf:type           brick:Building_Chilled_Water_Meter ;
-        brick:hasLocation  nest_location:Room_394 .
+        brick:hasLocation  nest_location:Room_394 ;
+        brick:meters       nest_location:SFW .
 
 nest_equipment:65NT_U36M1_P890
         rdf:type           brick:Building_Heating_Water_Meter ;
-        brick:hasLocation  nest_location:Room_342 .
+        brick:hasLocation  nest_location:Room_342 ;
+        brick:meters       nest_location:Hilo .
 
 nest_equipment:65NT_U12M2_P890
         rdf:type           brick:Building_Heating_Water_Meter ;
-        brick:hasLocation  nest_location:Room_140 .
+        brick:hasLocation  nest_location:Room_140 ;
+        brick:meters       nest_location:M2C .
 
 nest_equipment:65NT_MTM34_P890
         rdf:type           brick:Building_Heating_Water_Meter ;
-        brick:hasLocation  nest_location:Room_221 .
+        brick:hasLocation  nest_location:Room_221 ;
+        brick:meters       nest_location:VW .
 
 <https://www.empa.ch/digital-twin/systems/UMAR_Electrical_System>
         rdf:type  brick:Electrical_System .
@@ -205,7 +225,8 @@ nest_equipment:65NT_U20N1_E260
 
 nest_equipment:65NT_U30N1_P890
         rdf:type           brick:Building_Chilled_Water_Meter ;
-        brick:hasLocation  nest_location:Room_394 .
+        brick:hasLocation  nest_location:Room_394 ;
+        brick:meters       nest_location:SFW .
 
 nest_equipment:65NT_NTM31_Y760
         rdf:type           brick:HVAC_Valve ;
@@ -225,7 +246,8 @@ nest_equipment:65NT_U20E2_P890
 
 nest_equipment:65NT_NTM44_P890
         rdf:type           brick:Building_Chilled_Water_Meter ;
-        brick:hasLocation  nest_location:Room_311 .
+        brick:hasLocation  nest_location:Room_311 ;
+        brick:meters       nest_location:DFAB .
 
 nest_equipment:65NT_U20R1_E561
         rdf:type           brick:RC_Panel ;
@@ -249,7 +271,8 @@ nest_equipment:65NT_U20H1_P890
         rdf:type           brick:Building_Hot_Water_Meter ;
         brick:feeds        nest_equipment:65NT_U20H1_M200 ;
         brick:hasLocation  nest_location:Room_271 ;
-        brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_DHW_demand_subLoop> .
+        brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_DHW_demand_subLoop> ;
+        brick:meters       nest_location:UMAR .
 
 nest_equipment:65NT_U20H1_E470
         rdf:type           brick:Boiler ;
@@ -264,7 +287,8 @@ nest_equipment:65NT_U20R4_B870
 
 nest_equipment:65NT_NTM23_P890
         rdf:type           brick:Building_Chilled_Water_Meter ;
-        brick:hasLocation  nest_location:Room_121 .
+        brick:hasLocation  nest_location:Room_121 ;
+        brick:meters       nest_location:M2C .
 
 nest_equipment:65NT_U20R1_Y100
         rdf:type           brick:HVAC_Valve ;
@@ -274,7 +298,8 @@ nest_equipment:65NT_U20R1_Y100
 
 nest_equipment:65NT_U12E1_P001
         rdf:type           brick:Building_Electrical_Meter ;
-        brick:hasLocation  nest_location:Room_121 .
+        brick:hasLocation  nest_location:Room_121 ;
+        brick:meters       nest_location:M2C .
 
 nest_equipment:65NT_U20R3_B870
         rdf:type           brick:Thermostat ;
@@ -283,7 +308,8 @@ nest_equipment:65NT_U20R3_B870
 
 nest_equipment:65NT_U25M1_P890
         rdf:type           brick:Building_Heating_Water_Meter ;
-        brick:hasLocation  nest_location:Room_234 .
+        brick:hasLocation  nest_location:Room_234 ;
+        brick:meters       nest_location:Solace .
 
 nest_equipment:65NT_U20R1_E566
         rdf:type           brick:RC_Panel ;
@@ -316,7 +342,8 @@ nest_equipment:65NT_U20R1_E560
 nest_equipment:65NT_U20E1_P001
         rdf:type           brick:Building_Electrical_Meter ;
         brick:hasLocation  nest_location:Room_211 , nest_location:Room_271 ;
-        brick:isPartOf     <https://www.empa.ch/digital-twin/systems/UMAR_Electrical_System> .
+        brick:isPartOf     <https://www.empa.ch/digital-twin/systems/UMAR_Electrical_System> ;
+        brick:meters       nest_location:UMAR .
 
 nest_equipment:65NT_U20R1_Y105
         rdf:type           brick:HVAC_Valve ;
@@ -331,11 +358,13 @@ nest_equipment:65NT_U20R6_B870
 
 nest_equipment:65NT_U10M1_P890
         rdf:type           brick:Building_Heating_Water_Meter ;
-        brick:hasLocation  nest_location:Room_180 .
+        brick:hasLocation  nest_location:Room_180 ;
+        brick:meters       nest_location:Sprint .
 
 nest_equipment:65NT_MTM44_P890
         rdf:type           brick:Building_Heating_Water_Meter ;
-        brick:hasLocation  nest_location:Room_311 .
+        brick:hasLocation  nest_location:Room_311 ;
+        brick:meters       nest_location:DFAB .
 
 nest_equipment:65NT_U20R5_B870
         rdf:type           brick:Thermostat ;
@@ -344,15 +373,18 @@ nest_equipment:65NT_U20R5_B870
 
 nest_equipment:65NT_U25E1_P001
         rdf:type           brick:Building_Electrical_Meter ;
-        brick:hasLocation  nest_location:Room_211 .
+        brick:hasLocation  nest_location:Room_211 ;
+        brick:meters       nest_location:Solace .
 
 nest_equipment:65NT_NTM24_P890
         rdf:type           brick:Building_Chilled_Water_Meter ;
-        brick:hasLocation  nest_location:Room_121 .
+        brick:hasLocation  nest_location:Room_121 ;
+        brick:meters       nest_location:M2C .
 
 nest_equipment:65NT_U36E1_P001
         rdf:type           brick:Building_Electrical_Meter ;
-        brick:hasLocation  nest_location:Room_306 .
+        brick:hasLocation  nest_location:Room_306 ;
+        brick:meters       nest_location:Hilo .
 
 nest_equipment:65NT_U20R1_E565
         rdf:type           brick:RC_Panel ;
@@ -381,7 +413,8 @@ nest_equipment:65NT_U20R1_Y104
 
 nest_equipment:65NT_U25H1_P890
         rdf:type           brick:Building_Hot_Water_Meter ;
-        brick:hasLocation  nest_location:Room_234 .
+        brick:hasLocation  nest_location:Room_234 ;
+        brick:meters       nest_location:Solace .
 
 nest_equipment:65NT_U20M1_M200
         rdf:type           brick:Water_Pump ;
@@ -391,7 +424,8 @@ nest_equipment:65NT_U20M1_M200
 
 nest_equipment:65NT_U10E1_P001
         rdf:type           brick:Building_Electrical_Meter ;
-        brick:hasLocation  nest_location:Room_210 .
+        brick:hasLocation  nest_location:Room_210 ;
+        brick:meters       nest_location:Sprint .
 
 <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop>
         rdf:type  brick:Water_Loop .
