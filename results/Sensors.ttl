@@ -118,16 +118,6 @@ nest_point:65NT_U20R4_B870_M01
                                     ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150313>
                                   ] .
 
-nest_point:65NT_U30M1_P890_M01
-        rdf:type                  brick:Energy_Sensor ;
-        brick:hasLocation         nest_location:Room_394 ;
-        brick:hasOpcAddress       "OPC_UA.BeckhoffGateway.65NT-06422-D001.PLC1.Units.str3T0.strRead.strSensoren.strU30M1.strP890.rEnergie" ;
-        brick:isPointOf           nest_equipment:65NT_U30M1_P890 ;
-        ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
-                                    ref:hasTimeseriesId  "42110286" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42110286>
-                                  ] .
-
 nest_point:65NT_U25N1_P890_M00
         rdf:type                  brick:Thermal_Power_Sensor ;
         brick:hasLocation         nest_location:Room_234 ;
@@ -136,6 +126,16 @@ nest_point:65NT_U25N1_P890_M00
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42160203" ;
                                     ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42160203>
+                                  ] .
+
+nest_point:65NT_U30M1_P890_M01
+        rdf:type                  brick:Energy_Sensor ;
+        brick:hasLocation         nest_location:Room_394 ;
+        brick:hasOpcAddress       "OPC_UA.BeckhoffGateway.65NT-06422-D001.PLC1.Units.str3T0.strRead.strSensoren.strU30M1.strP890.rEnergie" ;
+        brick:isPointOf           nest_equipment:65NT_U30M1_P890 ;
+        ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
+                                    ref:hasTimeseriesId  "42110286" ;
+                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42110286>
                                   ] .
 
 nest_point:65NT_U12M1_P890_M00
