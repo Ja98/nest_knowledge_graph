@@ -15,7 +15,7 @@ nest_point:65NT_MTM23_P890_M00
         brick:isPointOf           nest_equipment:65NT_MTM23_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180211" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/401180211>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180211>
                                   ] .
 
 nest_point:65NT_NTM24_P890_M00
@@ -25,7 +25,7 @@ nest_point:65NT_NTM24_P890_M00
         brick:isPointOf           nest_equipment:65NT_NTM24_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180307" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/401180307>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180307>
                                   ] .
 
 nest_point:65NT_U20M2_B800_M00
@@ -35,7 +35,7 @@ nest_point:65NT_U20M2_B800_M00
         brick:isPointOf           nest_equipment:65NT_U20M2_B800 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150221" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150221>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150221>
                                   ] .
 
 nest_point:65NT_U12E1_P001_M00
@@ -45,7 +45,7 @@ nest_point:65NT_U12E1_P001_M00
         brick:isPointOf           nest_equipment:65NT_U12E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42140000" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42140000>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42140000>
                                   ] .
 
 nest_point:65NT_U30E1_P001_M01
@@ -55,7 +55,7 @@ nest_point:65NT_U30E1_P001_M01
         brick:isPointOf           nest_equipment:65NT_U30E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42110022" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42110022>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42110022>
                                   ] .
 
 nest_point:65NT_U20R5_B870_M00
@@ -65,7 +65,7 @@ nest_point:65NT_U20R5_B870_M00
         brick:isPointOf           nest_equipment:65NT_U20R5_B870 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150324" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150324>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150324>
                                   ] .
 
 nest_point:65NT_U33E1_P001_M01
@@ -75,7 +75,7 @@ nest_point:65NT_U33E1_P001_M01
         brick:isPointOf           nest_equipment:65NT_U33E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42190140" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42190140>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42190140>
                                   ] .
 
 nest_point:65NT_U36E1_P001_M01
@@ -85,7 +85,7 @@ nest_point:65NT_U36E1_P001_M01
         brick:isPointOf           nest_equipment:65NT_U36E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42130022" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42130022>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42130022>
                                   ] .
 
 nest_point:65NT_NTM31_P890_M01
@@ -95,7 +95,7 @@ nest_point:65NT_NTM31_P890_M01
         brick:isPointOf           nest_equipment:65NT_NTM31_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150450" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150450>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150450>
                                   ] .
 
 nest_point:65NT_U30M2_P890_M00
@@ -105,7 +105,7 @@ nest_point:65NT_U30M2_P890_M00
         brick:isPointOf           nest_equipment:65NT_U30M2_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42110300" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42110300>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42110300>
                                   ] .
 
 nest_point:65NT_U20R4_B870_M01
@@ -115,7 +115,7 @@ nest_point:65NT_U20R4_B870_M01
         brick:isPointOf           nest_equipment:65NT_U20R4_B870 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150313" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150313>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150313>
                                   ] .
 
 nest_point:65NT_U30M1_P890_M01
@@ -125,7 +125,7 @@ nest_point:65NT_U30M1_P890_M01
         brick:isPointOf           nest_equipment:65NT_U30M1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42110286" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42110286>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42110286>
                                   ] .
 
 nest_point:65NT_U25N1_P890_M00
@@ -135,7 +135,7 @@ nest_point:65NT_U25N1_P890_M00
         brick:isPointOf           nest_equipment:65NT_U25N1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42160203" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42160203>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42160203>
                                   ] .
 
 nest_point:65NT_U12M1_P890_M00
@@ -145,7 +145,7 @@ nest_point:65NT_U12M1_P890_M00
         brick:isPointOf           nest_equipment:65NT_U12M1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "421130021" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/421130021>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=421130021>
                                   ] .
 
 nest_point:65NT_U36M1_P890_M01
@@ -155,7 +155,7 @@ nest_point:65NT_U36M1_P890_M01
         brick:isPointOf           nest_equipment:65NT_U36M1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "421170084" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/421170084>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=421170084>
                                   ] .
 
 nest_point:65NT_NTM23_P890_M00
@@ -165,7 +165,7 @@ nest_point:65NT_NTM23_P890_M00
         brick:isPointOf           nest_equipment:65NT_NTM23_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180275" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/401180275>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180275>
                                   ] .
 
 nest_point:65NT_U25E1_P001_M01
@@ -175,7 +175,7 @@ nest_point:65NT_U25E1_P001_M01
         brick:isPointOf           nest_equipment:65NT_U25E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42160277" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42160277>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42160277>
                                   ] .
 
 nest_point:65NT_MTM34_P890_M00
@@ -185,7 +185,7 @@ nest_point:65NT_MTM34_P890_M00
         brick:isPointOf           nest_equipment:65NT_MTM34_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180371" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/401180371>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180371>
                                   ] .
 
 nest_point:65NT_HTM34_P890_M00
@@ -195,7 +195,7 @@ nest_point:65NT_HTM34_P890_M00
         brick:isPointOf           nest_equipment:65NT_HTM34_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180339" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/401180339>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180339>
                                   ] .
 
 nest_point:65NT_U10E1_P001_M00
@@ -205,7 +205,7 @@ nest_point:65NT_U10E1_P001_M00
         brick:isPointOf           nest_equipment:65NT_U10E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "421140529" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/421140529>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=421140529>
                                   ] .
 
 nest_point:65NT_U20R1_S102_D00
@@ -215,7 +215,7 @@ nest_point:65NT_U20R1_S102_D00
         brick:isPointOf           nest_equipment:65NT_U20R1_S102 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150286" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150286>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150286>
                                   ] .
 
 nest_point:65NT_U25M1_P890_M01
@@ -225,7 +225,7 @@ nest_point:65NT_U25M1_P890_M01
         brick:isPointOf           nest_equipment:65NT_U25M1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42160123" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42160123>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42160123>
                                   ] .
 
 nest_point:65NT_U20E1_P890_M00
@@ -235,7 +235,7 @@ nest_point:65NT_U20E1_P890_M00
         brick:isPointOf           nest_equipment:65NT_U20E1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150369" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150369>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150369>
                                   ] .
 
 nest_point:65NT_U10M1_P890_M00
@@ -245,7 +245,7 @@ nest_point:65NT_U10M1_P890_M00
         brick:isPointOf           nest_equipment:65NT_U10M1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "421140044" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/421140044>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=421140044>
                                   ] .
 
 nest_point:65NT_NTM34_P890_M00
@@ -255,7 +255,7 @@ nest_point:65NT_NTM34_P890_M00
         brick:isPointOf           nest_equipment:65NT_NTM34_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180403" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/401180403>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180403>
                                   ] .
 
 nest_point:65NT_MTM24_P890_M01
@@ -265,7 +265,7 @@ nest_point:65NT_MTM24_P890_M01
         brick:isPointOf           nest_equipment:65NT_MTM24_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180228" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/401180228>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180228>
                                   ] .
 
 nest_point:65NT_U20E1_P001_M01
@@ -275,7 +275,7 @@ nest_point:65NT_U20E1_P001_M01
         brick:isPointOf           nest_equipment:65NT_U20E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150445" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150445>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150445>
                                   ] .
 
 nest_point:65NT_U23E1_P001_M01
@@ -285,7 +285,7 @@ nest_point:65NT_U23E1_P001_M01
         brick:isPointOf           nest_equipment:65NT_U23E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42120022" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42120022>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42120022>
                                   ] .
 
 nest_point:65NT_U30N2_P890_M00
@@ -295,7 +295,7 @@ nest_point:65NT_U30N2_P890_M00
         brick:isPointOf           nest_equipment:65NT_U30N2_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42110270" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42110270>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42110270>
                                   ] .
 
 nest_point:65NT_MTM31_P890_M02
@@ -305,7 +305,7 @@ nest_point:65NT_MTM31_P890_M02
         brick:isPointOf           nest_equipment:65NT_MTM31_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150469" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150469>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150469>
                                   ] .
 
 nest_point:65NT_U20R1_S103_D00
@@ -315,7 +315,7 @@ nest_point:65NT_U20R1_S103_D00
         brick:isPointOf           nest_equipment:65NT_U20R1_S103 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150287" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150287>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150287>
                                   ] .
 
 nest_point:65NT_U20R3_B870_M00
@@ -325,7 +325,7 @@ nest_point:65NT_U20R3_B870_M00
         brick:isPointOf           nest_equipment:65NT_U20R3_B870 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150300" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150300>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150300>
                                   ] .
 
 nest_point:65NT_U30N1_P890_M01
@@ -335,7 +335,7 @@ nest_point:65NT_U30N1_P890_M01
         brick:isPointOf           nest_equipment:65NT_U30N1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42110276" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42110276>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42110276>
                                   ] .
 
 nest_point:65NT_U36N1_P890_M01
@@ -345,7 +345,7 @@ nest_point:65NT_U36N1_P890_M01
         brick:isPointOf           nest_equipment:65NT_U36N1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "421170039" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/421170039>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=421170039>
                                   ] .
 
 nest_point:65NT_U20R1_S100_D00
@@ -355,7 +355,7 @@ nest_point:65NT_U20R1_S100_D00
         brick:isPointOf           nest_equipment:65NT_U20R1_S100 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150284" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150284>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150284>
                                   ] .
 
 nest_point:65NT_MTM23_P890_M01
@@ -365,7 +365,7 @@ nest_point:65NT_MTM23_P890_M01
         brick:isPointOf           nest_equipment:65NT_MTM23_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180197" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/401180197>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180197>
                                   ] .
 
 nest_point:65NT_NTM24_P890_M01
@@ -375,7 +375,7 @@ nest_point:65NT_NTM24_P890_M01
         brick:isPointOf           nest_equipment:65NT_NTM24_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180292" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/401180292>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180292>
                                   ] .
 
 nest_point:65NT_U20R6_B870_M00
@@ -385,7 +385,7 @@ nest_point:65NT_U20R6_B870_M00
         brick:isPointOf           nest_equipment:65NT_U20R6_B870 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150336" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150336>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150336>
                                   ] .
 
 nest_point:65NT_U25H1_P890_M00
@@ -395,17 +395,7 @@ nest_point:65NT_U25H1_P890_M00
         brick:isPointOf           nest_equipment:65NT_U25H1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42160048" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42160048>
-                                  ] .
-
-nest_point:65NT_MTM44_P890_M00
-        rdf:type                  brick:Thermal_Power_Sensor ;
-        brick:hasLocation         nest_location:Room_311 ;
-        brick:hasOpcAddress       "OPC_UA.BeckhoffGateway.65NT-06421-D001.PLC1.Units.str3T3.strRead.strAktoren.strMTM44.strY760.rLeistung" ;
-        brick:isPointOf           nest_equipment:65NT_MTM44_P890 ;
-        ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
-                                    ref:hasTimeseriesId  "42190125" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42190125>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42160048>
                                   ] .
 
 nest_point:65NT_U12E1_P001_M01
@@ -415,7 +405,17 @@ nest_point:65NT_U12E1_P001_M01
         brick:isPointOf           nest_equipment:65NT_U12E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42140022" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42140022>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42140022>
+                                  ] .
+
+nest_point:65NT_MTM44_P890_M00
+        rdf:type                  brick:Thermal_Power_Sensor ;
+        brick:hasLocation         nest_location:Room_311 ;
+        brick:hasOpcAddress       "OPC_UA.BeckhoffGateway.65NT-06421-D001.PLC1.Units.str3T3.strRead.strAktoren.strMTM44.strY760.rLeistung" ;
+        brick:isPointOf           nest_equipment:65NT_MTM44_P890 ;
+        ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
+                                    ref:hasTimeseriesId  "42190125" ;
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42190125>
                                   ] .
 
 nest_point:65NT_U10N1_Y710_M00
@@ -425,7 +425,7 @@ nest_point:65NT_U10N1_Y710_M00
         brick:isPointOf           nest_equipment:65NT_U10N1_Y710 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "421140009" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/421140009>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=421140009>
                                   ] .
 
 nest_point:65NT_U30M2_P890_M01
@@ -435,7 +435,7 @@ nest_point:65NT_U30M2_P890_M01
         brick:isPointOf           nest_equipment:65NT_U30M2_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42110297" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42110297>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42110297>
                                   ] .
 
 nest_point:65NT_U12M2_P890_M00
@@ -445,7 +445,7 @@ nest_point:65NT_U12M2_P890_M00
         brick:isPointOf           nest_equipment:65NT_U12M2_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "421130024" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/421130024>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=421130024>
                                   ] .
 
 nest_point:65NT_U20R2_B870_M00
@@ -455,7 +455,7 @@ nest_point:65NT_U20R2_B870_M00
         brick:isPointOf           nest_equipment:65NT_U20R2_B870 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150288" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150288>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150288>
                                   ] .
 
 nest_point:65NT_U12M1_P890_M01
@@ -465,7 +465,7 @@ nest_point:65NT_U12M1_P890_M01
         brick:isPointOf           nest_equipment:65NT_U12M1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "421130020" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/421130020>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=421130020>
                                   ] .
 
 nest_point:65NT_U20R3_B870_M03
@@ -475,7 +475,7 @@ nest_point:65NT_U20R3_B870_M03
         brick:isPointOf           nest_equipment:65NT_U20R3_B870 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150303" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150303>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150303>
                                   ] .
 
 nest_point:65NT_NTM23_P890_M01
@@ -485,7 +485,7 @@ nest_point:65NT_NTM23_P890_M01
         brick:isPointOf           nest_equipment:65NT_NTM23_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180260" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/401180260>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180260>
                                   ] .
 
 nest_point:65NT_U20R1_S101_D00
@@ -495,7 +495,7 @@ nest_point:65NT_U20R1_S101_D00
         brick:isPointOf           nest_equipment:65NT_U20R1_S101 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150285" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150285>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150285>
                                   ] .
 
 nest_point:65NT_U20R1_Y104_M00
@@ -505,7 +505,7 @@ nest_point:65NT_U20R1_Y104_M00
         brick:isPointOf           nest_equipment:65NT_U20R1_Y104 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150274" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150274>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150274>
                                   ] .
 
 nest_point:65NT_NTM44_P890_M00
@@ -515,7 +515,7 @@ nest_point:65NT_NTM44_P890_M00
         brick:isPointOf           nest_equipment:65NT_NTM44_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42190132" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42190132>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42190132>
                                   ] .
 
 nest_point:65NT_U20R1_Y101_M00
@@ -525,7 +525,7 @@ nest_point:65NT_U20R1_Y101_M00
         brick:isPointOf           nest_equipment:65NT_U20R1_Y101 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150271" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150271>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150271>
                                   ] .
 
 nest_point:65NT_MTM34_P890_M01
@@ -535,7 +535,7 @@ nest_point:65NT_MTM34_P890_M01
         brick:isPointOf           nest_equipment:65NT_MTM34_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180357" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/401180357>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180357>
                                   ] .
 
 nest_point:65NT_HTM34_P890_M01
@@ -545,7 +545,7 @@ nest_point:65NT_HTM34_P890_M01
         brick:isPointOf           nest_equipment:65NT_HTM34_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180324" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/401180324>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180324>
                                   ] .
 
 nest_point:65NT_MTM31_P890_M00
@@ -555,11 +555,11 @@ nest_point:65NT_MTM31_P890_M00
         brick:isPointOf           nest_equipment:65NT_MTM31_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150477" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150477>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150477>
                                   ] ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150477" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150477>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150477>
                                   ] .
 
 nest_point:65NT_U20H1_P890_M00
@@ -569,11 +569,11 @@ nest_point:65NT_U20H1_P890_M00
         brick:isPointOf           nest_equipment:65NT_U20H1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150262" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150262>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150262>
                                   ] ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150262" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150262>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150262>
                                   ] .
 
 nest_point:65NT_U10E1_P001_M01
@@ -583,7 +583,7 @@ nest_point:65NT_U10E1_P001_M01
         brick:isPointOf           nest_equipment:65NT_U10E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "421140530" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/421140530>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=421140530>
                                   ] .
 
 nest_point:65NT_U20R2_B870_M03
@@ -593,7 +593,7 @@ nest_point:65NT_U20R2_B870_M03
         brick:isPointOf           nest_equipment:65NT_U20R2_B870 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150291" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150291>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150291>
                                   ] .
 
 nest_point:65NT_MET51_B870_M00
@@ -603,7 +603,7 @@ nest_point:65NT_MET51_B870_M00
         brick:isPointOf           nest_equipment:65NT_MET51_B870 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "3200000" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/3200000>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=3200000>
                                   ] .
 
 nest_point:65NT_U20E1_P890_M01
@@ -613,7 +613,7 @@ nest_point:65NT_U20E1_P890_M01
         brick:isPointOf           nest_equipment:65NT_U20E1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150385" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150385>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150385>
                                   ] .
 
 nest_point:65NT_U10M1_P890_M01
@@ -623,7 +623,7 @@ nest_point:65NT_U10M1_P890_M01
         brick:isPointOf           nest_equipment:65NT_U10M1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "421140045" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/421140045>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=421140045>
                                   ] .
 
 nest_point:65NT_NTM34_P890_M01
@@ -633,7 +633,7 @@ nest_point:65NT_NTM34_P890_M01
         brick:isPointOf           nest_equipment:65NT_NTM34_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180388" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/401180388>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180388>
                                   ] .
 
 nest_point:65NT_U30E1_P001_M00
@@ -643,7 +643,7 @@ nest_point:65NT_U30E1_P001_M00
         brick:isPointOf           nest_equipment:65NT_U30E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42110000" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42110000>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42110000>
                                   ] .
 
 nest_point:65NT_U33E1_P001_M00
@@ -653,7 +653,7 @@ nest_point:65NT_U33E1_P001_M00
         brick:isPointOf           nest_equipment:65NT_U33E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42190139" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42190139>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42190139>
                                   ] .
 
 nest_point:65NT_U36E1_P001_M00
@@ -663,7 +663,7 @@ nest_point:65NT_U36E1_P001_M00
         brick:isPointOf           nest_equipment:65NT_U36E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42130000" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42130000>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42130000>
                                   ] .
 
 nest_point:65NT_NTM31_P890_M00
@@ -673,11 +673,11 @@ nest_point:65NT_NTM31_P890_M00
         brick:isPointOf           nest_equipment:65NT_NTM31_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150459" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150459>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150459>
                                   ] ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150459" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150459>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150459>
                                   ] .
 
 nest_point:65NT_U20R1_Y105_M00
@@ -687,7 +687,7 @@ nest_point:65NT_U20R1_Y105_M00
         brick:isPointOf           nest_equipment:65NT_U20R1_Y105 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150275" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150275>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150275>
                                   ] .
 
 nest_point:65NT_U20R4_B870_M00
@@ -697,7 +697,7 @@ nest_point:65NT_U20R4_B870_M00
         brick:isPointOf           nest_equipment:65NT_U20R4_B870 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150312" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150312>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150312>
                                   ] .
 
 nest_point:65NT_U30N2_P890_M01
@@ -707,7 +707,7 @@ nest_point:65NT_U30N2_P890_M01
         brick:isPointOf           nest_equipment:65NT_U30N2_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42110267" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42110267>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42110267>
                                   ] .
 
 nest_point:65NT_U30M1_P890_M00
@@ -717,7 +717,7 @@ nest_point:65NT_U30M1_P890_M00
         brick:isPointOf           nest_equipment:65NT_U30M1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42110289" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42110289>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42110289>
                                   ] .
 
 nest_point:65NT_U36M1_P890_M00
@@ -727,7 +727,7 @@ nest_point:65NT_U36M1_P890_M00
         brick:isPointOf           nest_equipment:65NT_U36M1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "421170083" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/421170083>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=421170083>
                                   ] .
 
 nest_point:65NT_U20R3_B870_M01
@@ -737,7 +737,7 @@ nest_point:65NT_U20R3_B870_M01
         brick:isPointOf           nest_equipment:65NT_U20R3_B870 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150301" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150301>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150301>
                                   ] .
 
 nest_point:65NT_U20H1_B820_M00
@@ -747,7 +747,7 @@ nest_point:65NT_U20H1_B820_M00
         brick:isPointOf           nest_equipment:65NT_U20H1_B820 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150242" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150242>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150242>
                                   ] .
 
 nest_point:65NT_U25E1_P001_M00
@@ -757,7 +757,7 @@ nest_point:65NT_U25E1_P001_M00
         brick:isPointOf           nest_equipment:65NT_U25E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42160255" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42160255>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42160255>
                                   ] .
 
 nest_point:65NT_U25H1_P890_M01
@@ -767,7 +767,7 @@ nest_point:65NT_U25H1_P890_M01
         brick:isPointOf           nest_equipment:65NT_U25H1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42160047" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42160047>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42160047>
                                   ] .
 
 nest_point:65NT_MTM44_P890_M01
@@ -777,7 +777,7 @@ nest_point:65NT_MTM44_P890_M01
         brick:isPointOf           nest_equipment:65NT_MTM44_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42190126" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42190126>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42190126>
                                   ] .
 
 nest_point:65NT_U12M2_P890_M01
@@ -787,7 +787,7 @@ nest_point:65NT_U12M2_P890_M01
         brick:isPointOf           nest_equipment:65NT_U12M2_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "421130023" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/421130023>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=421130023>
                                   ] .
 
 nest_point:65NT_U20R1_Y106_M00
@@ -797,7 +797,7 @@ nest_point:65NT_U20R1_Y106_M00
         brick:isPointOf           nest_equipment:65NT_U20R1_Y106 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150276" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150276>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150276>
                                   ] .
 
 nest_point:65NT_U20R2_B870_M01
@@ -807,7 +807,7 @@ nest_point:65NT_U20R2_B870_M01
         brick:isPointOf           nest_equipment:65NT_U20R2_B870 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150289" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150289>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150289>
                                   ] .
 
 nest_point:65NT_U25M1_P890_M00
@@ -817,7 +817,7 @@ nest_point:65NT_U25M1_P890_M00
         brick:isPointOf           nest_equipment:65NT_U25M1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42160122" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42160122>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42160122>
                                   ] .
 
 nest_point:65NT_U20R4_B870_M03
@@ -827,7 +827,7 @@ nest_point:65NT_U20R4_B870_M03
         brick:isPointOf           nest_equipment:65NT_U20R4_B870 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150315" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150315>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150315>
                                   ] .
 
 nest_point:65NT_U20R1_Y100_M00
@@ -837,7 +837,7 @@ nest_point:65NT_U20R1_Y100_M00
         brick:isPointOf           nest_equipment:65NT_U20R1_Y100 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150270" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150270>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150270>
                                   ] .
 
 nest_point:65NT_U25N1_P890_M02
@@ -847,7 +847,7 @@ nest_point:65NT_U25N1_P890_M02
         brick:isPointOf           nest_equipment:65NT_U25N1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42160204" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42160204>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42160204>
                                   ] .
 
 nest_point:65NT_U10N1_P890_M01
@@ -857,7 +857,7 @@ nest_point:65NT_U10N1_P890_M01
         brick:isPointOf           nest_equipment:65NT_U10N1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "421140010" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/421140010>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=421140010>
                                   ] .
 
 nest_point:65NT_MTM24_P890_M00
@@ -867,7 +867,7 @@ nest_point:65NT_MTM24_P890_M00
         brick:isPointOf           nest_equipment:65NT_MTM24_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180243" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/401180243>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180243>
                                   ] .
 
 nest_point:65NT_NTM44_P890_M01
@@ -877,7 +877,7 @@ nest_point:65NT_NTM44_P890_M01
         brick:isPointOf           nest_equipment:65NT_NTM44_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42190133" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42190133>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42190133>
                                   ] .
 
 nest_point:65NT_U20E1_P001_M00
@@ -887,11 +887,11 @@ nest_point:65NT_U20E1_P001_M00
         brick:isPointOf           nest_equipment:65NT_U20E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150423" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150423>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150423>
                                   ] ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150423" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150423>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150423>
                                   ] .
 
 nest_point:65NT_U23E1_P001_M00
@@ -901,7 +901,7 @@ nest_point:65NT_U23E1_P001_M00
         brick:isPointOf           nest_equipment:65NT_U23E1_P001 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42120000" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42120000>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42120000>
                                   ] .
 
 nest_point:65NT_U20H1_P890_M01
@@ -911,7 +911,7 @@ nest_point:65NT_U20H1_P890_M01
         brick:isPointOf           nest_equipment:65NT_U20H1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42150263" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42150263>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42150263>
                                   ] .
 
 nest_point:65NT_U30N1_P890_M00
@@ -921,7 +921,7 @@ nest_point:65NT_U30N1_P890_M00
         brick:isPointOf           nest_equipment:65NT_U30N1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42110279" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42110279>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42110279>
                                   ] .
 
 nest_point:65NT_U36N1_P890_M00
@@ -931,5 +931,5 @@ nest_point:65NT_U36N1_P890_M00
         brick:isPointOf           nest_equipment:65NT_U36N1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "421170038" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/421170038>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=421170038>
                                   ] .

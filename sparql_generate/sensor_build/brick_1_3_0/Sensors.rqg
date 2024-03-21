@@ -48,6 +48,6 @@ WHERE {
     BIND(IRI(CONCAT("https://brickschema.org/schema/Brick#",ENCODE_FOR_URI(?brick_PointType))) AS ?BrickClass_Type)
     BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/location/",ENCODE_FOR_URI(?Room))) AS ?Room_URI)
     BIND(IRI(CONCAT("https://www.empa.ch/digital-twin/equipment/",ENCODE_FOR_URI(?nest_Equipment))) AS ?nest_Equipment_URI)
-    BIND(IRI(CONCAT("https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/", STR(?Point))) AS ?timeseries_address)
+    BIND(IRI(CONCAT("https://api.nestcloud.ch/nest/data?numericid=", STR(?Point))) AS ?timeseries_address)
 }
 
