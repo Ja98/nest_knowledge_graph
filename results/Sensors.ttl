@@ -135,7 +135,7 @@ nest_point:65NT_U25N1_P890_M00
         brick:isPointOf           nest_equipment:65NT_U25N1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42160203" ;
-                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42160203>
+                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42160203>
                                   ] .
 
 nest_point:65NT_U12M1_P890_M00

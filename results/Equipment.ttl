@@ -27,12 +27,14 @@ nest_equipment:65NT_U36N1_P890
 
 nest_equipment:65NT_U20R1_E564
         rdf:type           brick:RC_Panel ;
-        brick:feeds        nest_equipment:65NT_U20R1_Y104 ;
+        brick:feeds        nest_equipment:65NT_U20N1_Y741 ;
         brick:hasLocation  nest_location:Room_274 ;
+        brick:isFedBy      nest_equipment:65NT_U20R1_Y104 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_U20N1_Y700
         rdf:type           brick:HVAC_Valve ;
+        brick:feeds        nest_equipment:65NT_U20N1_M200 ;
         brick:hasLocation  nest_location:Room_271 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/NTE_supply_subLoop> .
 
@@ -43,7 +45,9 @@ nest_equipment:65NT_U10N1_Y710
 
 nest_equipment:65NT_U20N1_Y741
         rdf:type           brick:HVAC_Valve ;
+        brick:feeds        nest_equipment:65NT_U20N1_E260 ;
         brick:hasLocation  nest_location:Room_271 ;
+        brick:isFedBy      nest_equipment:65NT_U20R1_Y103 , nest_equipment:65NT_U20R1_Y106 , nest_equipment:65NT_U20R1_Y101 , nest_equipment:65NT_U20R1_Y105 , nest_equipment:65NT_U20R1_Y102 , nest_equipment:65NT_U20R1_Y100 , nest_equipment:65NT_U20R1_Y104 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/NTE_supply_subLoop> .
 
 nest_equipment:65NT_U30M2_P890
@@ -63,7 +67,9 @@ nest_equipment:65NT_U20H1_Y761
 
 nest_equipment:65NT_NTM31_P890
         rdf:type           brick:Building_Chilled_Water_Meter ;
+        brick:feeds        nest_equipment:65NT_NTM31_Y760 ;
         brick:hasLocation  nest_location:Room_211 , nest_location:Room_271 ;
+        brick:isFedBy      nest_equipment:65NT_U20N1_E260 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/NTE_supply_subLoop> ;
         brick:meters       nest_location:UMAR .
 
@@ -74,13 +80,16 @@ nest_equipment:65NT_MTM24_P890
 
 nest_equipment:65NT_U20R1_Y103
         rdf:type           brick:HVAC_Valve ;
-        brick:feeds        nest_equipment:65NT_U20M2_M210 ;
+        brick:feeds        nest_equipment:65NT_U20R1_E563 ;
         brick:hasLocation  nest_location:Room_273 ;
+        brick:isFedBy      nest_equipment:65NT_U20M2_B800 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_U20M1_E260
         rdf:type           brick:Heat_Exchanger ;
+        brick:feeds        nest_equipment:65NT_U20M1_Y730 ;
         brick:hasLocation  nest_location:Room_271 ;
+        brick:isFedBy      nest_equipment:65NT_U20M1_Y740 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/MTE_supply_subLoop> .
 
 nest_equipment:65NT_U30M1_P890
@@ -116,8 +125,9 @@ nest_equipment:65NT_U33E1_P001
 
 nest_equipment:65NT_U20R1_E563
         rdf:type           brick:RC_Panel ;
-        brick:feeds        nest_equipment:65NT_U20R1_Y103 ;
+        brick:feeds        nest_equipment:65NT_U20N1_Y741 ;
         brick:hasLocation  nest_location:Room_273 ;
+        brick:isFedBy      nest_equipment:65NT_U20R1_Y103 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_HTM34_P890
@@ -151,13 +161,16 @@ nest_equipment:65NT_U30E1_P001
 
 nest_equipment:65NT_U20R1_Y102
         rdf:type           brick:HVAC_Valve ;
-        brick:feeds        nest_equipment:65NT_U20M2_M210 ;
+        brick:feeds        nest_equipment:65NT_U20R1_E562 ;
         brick:hasLocation  nest_location:Room_273 ;
+        brick:isFedBy      nest_equipment:65NT_U20M2_B800 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_U20N1_M200
         rdf:type           brick:Water_Pump ;
+        brick:feeds        nest_equipment:65NT_U20N1_E260 ;
         brick:hasLocation  nest_location:Room_271 ;
+        brick:isFedBy      nest_equipment:65NT_U20N1_Y700 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/NTE_supply_subLoop> .
 
 nest_equipment:65NT_MTM31_P890
@@ -169,14 +182,16 @@ nest_equipment:65NT_MTM31_P890
 
 nest_equipment:65NT_U20M1_Y730
         rdf:type           brick:HVAC_Valve ;
-        brick:feeds        nest_equipment:65NT_U20M1_E260 ;
+        brick:feeds        nest_equipment:65NT_U20M2_M210 ;
         brick:hasLocation  nest_location:Room_271 ;
+        brick:isFedBy      nest_equipment:65NT_U20M1_E260 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/MTE_supply_subLoop> .
 
 nest_equipment:65NT_U20R1_E562
         rdf:type           brick:RC_Panel ;
-        brick:feeds        nest_equipment:65NT_U20R1_Y102 ;
+        brick:feeds        nest_equipment:65NT_U20N1_Y741 ;
         brick:hasLocation  nest_location:Room_273 ;
+        brick:isFedBy      nest_equipment:65NT_U20R1_Y102 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_U23E1_P001
@@ -209,8 +224,9 @@ nest_equipment:65NT_MTM34_P890
 
 nest_equipment:65NT_U20R1_Y101
         rdf:type           brick:HVAC_Valve ;
-        brick:feeds        nest_equipment:65NT_U20M2_M210 ;
+        brick:feeds        nest_equipment:65NT_U20R1_E561 ;
         brick:hasLocation  nest_location:Room_273 ;
+        brick:isFedBy      nest_equipment:65NT_U20M2_B800 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_U20R2_B870
@@ -220,7 +236,9 @@ nest_equipment:65NT_U20R2_B870
 
 nest_equipment:65NT_U20N1_E260
         rdf:type           brick:Heat_Exchanger ;
+        brick:feeds        nest_equipment:65NT_U20N1_Y731 ;
         brick:hasLocation  nest_location:Room_271 ;
+        brick:isFedBy      nest_equipment:65NT_U20N1_M200 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/NTE_supply_subLoop> .
 
 nest_equipment:65NT_U30N1_P890
@@ -231,11 +249,14 @@ nest_equipment:65NT_U30N1_P890
 nest_equipment:65NT_NTM31_Y760
         rdf:type           brick:HVAC_Valve ;
         brick:hasLocation  nest_location:Room_271 ;
+        brick:isFedBy      nest_equipment:65NT_NTM31_P890 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/NTE_supply_subLoop> .
 
 nest_equipment:65NT_U20N1_Y731
         rdf:type           brick:HVAC_Valve ;
+        brick:feeds        nest_equipment:65NT_U20M2_M210 ;
         brick:hasLocation  nest_location:Room_271 ;
+        brick:isFedBy      nest_equipment:65NT_U20N1_E260 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/NTE_supply_subLoop> .
 
 nest_equipment:65NT_U20E2_P890
@@ -251,8 +272,9 @@ nest_equipment:65NT_NTM44_P890
 
 nest_equipment:65NT_U20R1_E561
         rdf:type           brick:RC_Panel ;
-        brick:feeds        nest_equipment:65NT_U20R1_Y101 ;
+        brick:feeds        nest_equipment:65NT_U20N1_Y741 ;
         brick:hasLocation  nest_location:Room_273 ;
+        brick:isFedBy      nest_equipment:65NT_U20R1_Y101 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_U20E1_P890
@@ -263,8 +285,9 @@ nest_equipment:65NT_U20E1_P890
 
 nest_equipment:65NT_U20R1_Y106
         rdf:type           brick:HVAC_Valve ;
-        brick:feeds        nest_equipment:65NT_U20M2_M210 ;
+        brick:feeds        nest_equipment:65NT_U20R1_E566 ;
         brick:hasLocation  nest_location:Room_276 ;
+        brick:isFedBy      nest_equipment:65NT_U20M2_B800 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_U20H1_P890
@@ -292,8 +315,9 @@ nest_equipment:65NT_NTM23_P890
 
 nest_equipment:65NT_U20R1_Y100
         rdf:type           brick:HVAC_Valve ;
-        brick:feeds        nest_equipment:65NT_U20M2_M210 ;
+        brick:feeds        nest_equipment:65NT_U20R1_E560 ;
         brick:hasLocation  nest_location:Room_272 ;
+        brick:isFedBy      nest_equipment:65NT_U20M2_B800 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_U12E1_P001
@@ -313,8 +337,9 @@ nest_equipment:65NT_U25M1_P890
 
 nest_equipment:65NT_U20R1_E566
         rdf:type           brick:RC_Panel ;
-        brick:feeds        nest_equipment:65NT_U20R1_Y106 ;
+        brick:feeds        nest_equipment:65NT_U20N1_Y741 ;
         brick:hasLocation  nest_location:Room_276 ;
+        brick:isFedBy      nest_equipment:65NT_U20R1_Y106 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_U20M1_Y700
@@ -324,8 +349,9 @@ nest_equipment:65NT_U20M1_Y700
 
 nest_equipment:65NT_U20M2_M210
         rdf:type           brick:Water_Pump ;
-        brick:feeds        nest_equipment:65NT_U20M1_E260 ;
+        brick:feeds        nest_equipment:65NT_U20M2_B800 ;
         brick:hasLocation  nest_location:Room_271 ;
+        brick:isFedBy      nest_equipment:65NT_U20N1_Y731 , nest_equipment:65NT_U20M1_Y730 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_MTM31_Y760
@@ -335,8 +361,9 @@ nest_equipment:65NT_MTM31_Y760
 
 nest_equipment:65NT_U20R1_E560
         rdf:type           brick:RC_Panel ;
-        brick:feeds        nest_equipment:65NT_U20R1_Y100 ;
+        brick:feeds        nest_equipment:65NT_U20N1_Y741 ;
         brick:hasLocation  nest_location:Room_272 ;
+        brick:isFedBy      nest_equipment:65NT_U20R1_Y100 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_U20E1_P001
@@ -347,8 +374,9 @@ nest_equipment:65NT_U20E1_P001
 
 nest_equipment:65NT_U20R1_Y105
         rdf:type           brick:HVAC_Valve ;
-        brick:feeds        nest_equipment:65NT_U20M2_M210 ;
+        brick:feeds        nest_equipment:65NT_U20R1_E565 ;
         brick:hasLocation  nest_location:Room_275 ;
+        brick:isFedBy      nest_equipment:65NT_U20M2_B800 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_U20R6_B870
@@ -388,14 +416,21 @@ nest_equipment:65NT_U36E1_P001
 
 nest_equipment:65NT_U20R1_E565
         rdf:type           brick:RC_Panel ;
-        brick:feeds        nest_equipment:65NT_U20R1_Y105 ;
+        brick:feeds        nest_equipment:65NT_U20N1_Y741 ;
         brick:hasLocation  nest_location:Room_275 ;
+        brick:isFedBy      nest_equipment:65NT_U20R1_Y105 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_U20M1_Y740
         rdf:type           brick:HVAC_Valve ;
+        brick:feeds        nest_equipment:65NT_U20M1_E260 ;
         brick:hasLocation  nest_location:Room_271 ;
+        brick:isFedBy      nest_equipment:65NT_U20R1_Y101 , nest_equipment:65NT_U20R1_Y105 , nest_equipment:65NT_U20R1_Y103 , nest_equipment:65NT_U20R1_Y106 , nest_equipment:65NT_U20R1_Y100 , nest_equipment:65NT_U20R1_Y104 , nest_equipment:65NT_U20R1_Y102 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/MTE_supply_subLoop> .
+
+nest_equipment:65NT_U20M2_B800
+        rdf:type       brick:Thermostat ;
+        brick:isFedBy  nest_equipment:65NT_U20M2_M210 .
 
 <https://www.empa.ch/digital-twin/loops/MTE_supply_subLoop>
         rdf:type  brick:Water_Loop .
@@ -407,8 +442,9 @@ nest_equipment:65NT_U20S1_P840
 
 nest_equipment:65NT_U20R1_Y104
         rdf:type           brick:HVAC_Valve ;
-        brick:feeds        nest_equipment:65NT_U20M2_M210 ;
+        brick:feeds        nest_equipment:65NT_U20R1_E564 ;
         brick:hasLocation  nest_location:Room_274 ;
+        brick:isFedBy      nest_equipment:65NT_U20M2_B800 ;
         brick:isPartOf     <https://www.empa.ch/digital-twin/loops/UMAR_RC_demand_subLoop> .
 
 nest_equipment:65NT_U25H1_P890
