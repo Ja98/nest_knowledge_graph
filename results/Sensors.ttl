@@ -135,7 +135,7 @@ nest_point:65NT_U25N1_P890_M00
         brick:isPointOf           nest_equipment:65NT_U25N1_P890 ;
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42160203" ;
-                                    ref:storedAt         <https://visualizer.nestcloud.ch/Backend/api/v1/datapoints/42160203>
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42160203>
                                   ] .
 
 nest_point:65NT_U12M1_P890_M00
@@ -168,16 +168,6 @@ nest_point:65NT_NTM23_P890_M00
                                     ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180275>
                                   ] .
 
-nest_point:65NT_U25E1_P001_M01
-        rdf:type                  brick:Energy_Sensor ;
-        brick:hasLocation         nest_location:Room_211 ;
-        brick:hasOpcAddress       "OPC_UA.BeckhoffGateway.65NT-06402-D001.PLC1.microgrid.strRead.strEnergiemessung.strU25E1_P001.rSumWirkenergie" ;
-        brick:isPointOf           nest_equipment:65NT_U25E1_P001 ;
-        ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
-                                    ref:hasTimeseriesId  "42160277" ;
-                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42160277>
-                                  ] .
-
 nest_point:65NT_MTM34_P890_M00
         rdf:type                  brick:Thermal_Power_Sensor ;
         brick:hasLocation         nest_location:Room_221 ;
@@ -186,6 +176,16 @@ nest_point:65NT_MTM34_P890_M00
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "401180371" ;
                                     ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=401180371>
+                                  ] .
+
+nest_point:65NT_U25E1_P001_M01
+        rdf:type                  brick:Energy_Sensor ;
+        brick:hasLocation         nest_location:Room_211 ;
+        brick:hasOpcAddress       "OPC_UA.BeckhoffGateway.65NT-06402-D001.PLC1.microgrid.strRead.strEnergiemessung.strU25E1_P001.rSumWirkenergie" ;
+        brick:isPointOf           nest_equipment:65NT_U25E1_P001 ;
+        ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
+                                    ref:hasTimeseriesId  "42160277" ;
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42160277>
                                   ] .
 
 nest_point:65NT_HTM34_P890_M00
@@ -398,16 +398,6 @@ nest_point:65NT_U25H1_P890_M00
                                     ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42160048>
                                   ] .
 
-nest_point:65NT_U12E1_P001_M01
-        rdf:type                  brick:Energy_Sensor ;
-        brick:hasLocation         nest_location:Room_121 ;
-        brick:hasOpcAddress       "OPC_UA.BeckhoffGateway.65NT-06402-D001.PLC1.microgrid.strRead.strEnergiemessung.strU12E1_P001.rSumWirkenergie" ;
-        brick:isPointOf           nest_equipment:65NT_U12E1_P001 ;
-        ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
-                                    ref:hasTimeseriesId  "42140022" ;
-                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42140022>
-                                  ] .
-
 nest_point:65NT_MTM44_P890_M00
         rdf:type                  brick:Thermal_Power_Sensor ;
         brick:hasLocation         nest_location:Room_311 ;
@@ -416,6 +406,16 @@ nest_point:65NT_MTM44_P890_M00
         ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
                                     ref:hasTimeseriesId  "42190125" ;
                                     ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42190125>
+                                  ] .
+
+nest_point:65NT_U12E1_P001_M01
+        rdf:type                  brick:Energy_Sensor ;
+        brick:hasLocation         nest_location:Room_121 ;
+        brick:hasOpcAddress       "OPC_UA.BeckhoffGateway.65NT-06402-D001.PLC1.microgrid.strRead.strEnergiemessung.strU12E1_P001.rSumWirkenergie" ;
+        brick:isPointOf           nest_equipment:65NT_U12E1_P001 ;
+        ref:hasExternalReference  [ rdf:type             ref:TimeseriesReference ;
+                                    ref:hasTimeseriesId  "42140022" ;
+                                    ref:storedAt         <https://api.nestcloud.ch/nest/data?numericid=42140022>
                                   ] .
 
 nest_point:65NT_U10N1_Y710_M00
